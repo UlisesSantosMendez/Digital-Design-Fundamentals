@@ -1,0 +1,8 @@
+ENTITY module IS
+    PORT (
+	boton : in std_logic_vector (0 to 9) ; 
+	dispa : inout std_logic_vector (0 to 6) ; 
+	dispb : inout std_logic_vector (0 to 6) ; 
+	sum : inout std_logic_vector (6 downto 0)
+    ) ;
+END module ;

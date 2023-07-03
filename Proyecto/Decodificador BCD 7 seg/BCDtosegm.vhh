@@ -1,0 +1,12 @@
+ENTITY decodifdos IS
+    PORT (
+	ra : in std_logic_vector (3 downto 0) ; 
+	rb : in std_logic_vector (3 downto 0) ; 
+	rc : in std_logic_vector (3 downto 0) ; 
+	rd : in std_logic_vector (3 downto 0) ; 
+	dispc : inout std_logic_vector (6 downto 0) ; 
+	dispd : inout std_logic_vector (6 downto 0) ; 
+	dispe : inout std_logic_vector (6 downto 0) ; 
+	dispf : inout std_logic_vector (6 downto 0)
+    ) ;
+END decodifdos ;

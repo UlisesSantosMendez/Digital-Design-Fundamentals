@@ -1,0 +1,37 @@
+Cypress Package: cy7c372i-125jc  PinOut File: modulo_1.pin
+
+This file was created on 06/22/2020 at 18:13:49 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+sum(4) out <> Disabled Normal 2 <> [Auto] 
+dispb(2) out <> Disabled Normal 4 <> [Auto] 
+dispa(2) out <> Disabled Normal 5 <> [Auto] 
+sum(3) out <> Disabled Normal 6 <> [Auto] 
+dispa(6) out <> Disabled Normal 7 <> [Auto] 
+boton(9) in <> Disabled Normal 10 <> [Auto] 
+boton(8) in <> Disabled Normal 13 <> [Auto] 
+boton(4) in <> Disabled Normal 14 <> [Auto] 
+boton(3) in <> Disabled Normal 15 <> [Auto] 
+boton(2) in <> Disabled Normal 16 <> [Auto] 
+boton(1) in <> Disabled Normal 17 <> [Auto] 
+boton(0) in <> Disabled Normal 18 <> [Auto] 
+dispb(6) out <> Disabled Normal 24 <> [Auto] 
+dispb(5) out <> Disabled Normal 25 <> [Auto] 
+sum(2) out <> Disabled Normal 26 <> [Auto] 
+sum(1) out <> Disabled Normal 27 <> [Auto] 
+dispb(1) out <> Disabled Normal 28 <> [Auto] 
+dispa(5) out <> Disabled Normal 29 <> [Auto] 
+dispa(4) out <> Disabled Normal 30 <> [Auto] 
+dispa(1) out <> Disabled Normal 31 <> [Auto] 
+boton(7) in <> Disabled Normal 32 <> [Auto] 
+boton(6) in <> Disabled Normal 33 <> [Auto] 
+boton(5) in <> Disabled Normal 35 <> [Auto] 
+sum(5) out <> Disabled Normal 36 <> [Auto] 
+dispb(4) out <> Disabled Normal 37 <> [Auto] 
+sum(0) inout <> Disabled Normal 38 <> [Auto] 
+dispb(0) out <> Disabled Normal 39 <> [Auto] 
+dispa(0) out <> Disabled Normal 40 <> [Auto] 
+dispa(3) out <> Disabled Normal 41 <> [Auto] 
+dispb(3) out <> Disabled Normal 42 <> [Auto] 
+sum(6) out <> Disabled Normal 43 <> [Auto] 

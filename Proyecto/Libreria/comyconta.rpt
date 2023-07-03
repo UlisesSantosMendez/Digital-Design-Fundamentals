@@ -1,0 +1,90 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  comyconta.vhd
+Options:    -m -yu -e10 -w100 -o1 -ygs -fP -v10 -aembass comyconta.vhd BCDtosegm.vhd modulo_1.vhd packagecomps.vhd sumofsixteen.vhd -u libproy.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Mon Jun 22 22:06:38 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+comyconta.vhd (line 25, col 10):  Note: Substituting module 'add_vi_ss' for '+'.
+comyconta.vhd (line 26, col 31):  Note: Substituting module 'cmp_vv_ss' for '='.
+comyconta.vhd (line 33, col 12):  Note: Substituting module 'cmp_vv_ss' for '='.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Mon Jun 22 22:06:38 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mcompare.vif'.
+Added entity 'contador' to library 'embass'
+Added architecture 'arq_compcont' to library 'embass'
+Added entity 'add_vi_ss_generic0' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'add_ss_generic1' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'finc_generic2' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic3' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic4' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic5' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic6' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'mcompare_generic7' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Mon Jun 22 22:06:39 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mcompare.vif'.
+topld:  comyconta.vhd:  Warning: (W445) No binding architecture found.
+
+topld:  No errors.  1 warning.
+

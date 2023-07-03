@@ -1,0 +1,2 @@
+BCDtosegm.vhd #Entity decodifdos 11
+BCDtosegm.vhd #Architecture arq_decos decodifdos 16

@@ -1,0 +1,8 @@
+sumofsixteen.vhd #Entity sumador2 12
+sumofsixteen.vhd #Architecture arq_sumdos sumador2 18
+modulo_1.vhd #Entity module 12
+modulo_1.vhd #Architecture arq_module module 19
+BCDtosegm.vhd #Entity decodifdos 11
+BCDtosegm.vhd #Architecture arq_decos decodifdos 16
+comyconta.vhd #Entity contador 12
+comyconta.vhd #Architecture arq_compcont contador 19

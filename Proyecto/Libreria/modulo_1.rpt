@@ -1,0 +1,131 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  modulo_1.vhd
+Options:    -m -yu -e10 -w100 -o1 -ygs -fP -v10 -aembass comyconta.vhd BCDtosegm.vhd modulo_1.vhd packagecomps.vhd sumofsixteen.vhd -u libproy.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Mon Jun 22 22:06:39 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+modulo_1.vhd (line 31, col 26):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 33, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 35, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 37, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 39, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 41, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 43, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 45, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 47, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 53, col 18):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 59, col 11):  Note: Substituting module 'add_vi_ss' for '+'.
+modulo_1.vhd (line 61, col 21):  Note: Substituting module 'cmp_vv_ss' for '='.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Mon Jun 22 22:06:40 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+Added entity 'module' to library 'embass'
+Added architecture 'arq_module' to library 'embass'
+Added entity 'cmp_vv_ss_generic0' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic1' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic2' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic3' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic4' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic5' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic6' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic7' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic8' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic9' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic10' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic11' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic12' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic13' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic14' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic15' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic16' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic17' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic18' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic19' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'add_vi_ss_generic20' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'add_ss_generic21' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'finc_generic22' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_vv_ss_generic23' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+Added entity 'cmp_ss_generic24' to library 'embass'
+Added architecture 'generic_instance' to library 'embass'
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Mon Jun 22 22:06:40 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+topld:  modulo_1.vhd:  Warning: (W445) No binding architecture found.
+
+topld:  No errors.  1 warning.
+

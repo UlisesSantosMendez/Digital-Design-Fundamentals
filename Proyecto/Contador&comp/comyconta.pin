@@ -1,0 +1,32 @@
+Cypress Package: cy7c372i-125jc  PinOut File: comyconta.pin
+
+This file was created on 06/22/2020 at 18:03:39 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+sum(4) in <> Disabled Normal 2 <> [Auto] 
+sum(2) in <> Disabled Normal 3 <> [Auto] 
+sum(0) in <> Disabled Normal 4 <> [Auto] 
+reset in <> Disabled Normal 10 <> [Auto] 
+sensor gclk <> Disabled Normal 13 <> [Auto] 
+compara(7) out <> Disabled Normal 14 <> [Auto] 
+compara(4) out <> Disabled Normal 15 <> [Auto] 
+compara(2) out <> Disabled Normal 16 <> [Auto] 
+compara(0) out <> Disabled Normal 17 <> [Auto] 
+compara(6) out <> Disabled Normal 18 <> [Auto] 
+compara(1) out <> Disabled Normal 19 <> [Auto] 
+compara(3) out <> Disabled Normal 20 <> [Auto] 
+compara(5) out <> Disabled Normal 21 <> [Auto] 
+sum(3) in <> Disabled Normal 24 <> [Auto] 
+sum(1) in <> Disabled Normal 25 <> [Auto] 
+sum(7) in <> Disabled Normal 32 <> [Auto] 
+sum(6) in <> Disabled Normal 33 <> [Auto] 
+sum(5) in <> Disabled Normal 35 <> [Auto] 
+q(2) inout <> Disabled Normal 36 <> [Auto] 
+q(0) inout <> Disabled Normal 37 <> [Auto] 
+q(7) inout <> Disabled Normal 38 <> [Auto] 
+q(1) inout <> Disabled Normal 39 <> [Auto] 
+q(5) inout <> Disabled Normal 40 <> [Auto] 
+q(3) inout <> Disabled Normal 41 <> [Auto] 
+q(4) inout <> Disabled Normal 42 <> [Auto] 
+q(6) inout <> Disabled Normal 43 <> [Auto] 

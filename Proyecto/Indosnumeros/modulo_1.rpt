@@ -1,0 +1,1430 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  modulo_1.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fO -fP -v10 -dc372i -pcy7c372i-125jc -b modulo_1.vhd -u twodisp.hie -uch00
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Mon Jun 22 18:13:46 2020
+
+Library 'work' => directory 'lc372i'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+modulo_1.vhd (line 31, col 26):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 33, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 35, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 37, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 39, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 41, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 43, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 45, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 47, col 29):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 53, col 18):  Note: Substituting module 'cmp_vv_ss' for '='.
+modulo_1.vhd (line 59, col 11):  Note: Substituting module 'add_vi_ss' for '+'.
+modulo_1.vhd (line 61, col 21):  Note: Substituting module 'cmp_vv_ss' for '='.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Mon Jun 22 18:13:46 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Mon Jun 22 18:13:46 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\lc370\stdlogic\c370.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 25 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 96 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 3 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 180 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (18:13:48)
+
+Input File(s): modulo_1.pla
+Device       : c372i
+Package      : cy7c372i-125jc
+ReportFile   : modulo_1.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND UserCode 00000000 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP DT-OPT ALL
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (18:13:48)
+
+Messages:
+  Information: Process virtual 'ra_1B'ra_1B ... expanded.
+  Information: Process virtual 'ra_2B'ra_2B ... expanded.
+  Information: Process virtual 'ra_3B'ra_3B ... expanded.
+  Information: Process virtual 'rb_0B'rb_0B ... expanded.
+  Information: Process virtual 'rb_1B'rb_1B ... expanded.
+  Information: Process virtual 'rb_2B'rb_2B ... expanded.
+  Information: Process virtual 'rb_3B'rb_3B ... expanded.
+  Information: Process virtual '\sum(0)E\'\sum(0)E\ ... expanded.
+  Information: Process virtual '\MODULE_12:g2:a0:eqa_0\'\MODULE_12:g2:a0:eqa_0\ ... expanded.
+  Information: Process virtual '\MODULE_11:g2:a0:s_1\'\MODULE_11:g2:a0:s_1\ ... expanded.
+  Information: Process virtual '\MODULE_10:g2:a0:eqa_0\'\MODULE_10:g2:a0:eqa_0\ ... expanded.
+  Information: Process virtual 'ra_1' ... converted to NODE.
+  Information: Process virtual 'ra_2' ... converted to NODE.
+  Information: Process virtual 'ra_3' ... converted to NODE.
+  Information: Process virtual 'rb_0' ... converted to NODE.
+  Information: Process virtual 'rb_1' ... converted to NODE.
+  Information: Process virtual 'rb_2' ... converted to NODE.
+  Information: Process virtual 'rb_3' ... converted to NODE.
+  Information: Process virtual 'tecla_0' ... converted to NODE.
+  Information: Process virtual 'tecla_1' ... converted to NODE.
+  Information: Process virtual 'c_0'c_0 ... expanded.
+  Information: Process virtual 'c_1'c_1 ... expanded.
+  Information: Process virtual 'c_2'c_2 ... expanded.
+  Information: Process virtual 'c_3'c_3 ... expanded.
+  Information: Optimizing logic using best output polarity for signals:
+         dispa(0) dispa(1) dispa(2) dispa(3) dispa(4) dispa(5) dispa(6)
+         dispb(0) dispb(1) dispb(2) dispb(3) dispb(4) dispb(5) dispb(6) ra_1.D
+         ra_2.D ra_3.D rb_0.D rb_1.D rb_2.D rb_3.D sum(0).D sum(1) sum(2)
+         sum(3) sum(4) sum(5) sum(6)
+
+  Information: Selected logic optimization OFF for signals:
+         ra_1.AP ra_1.AR ra_1.LH ra_2.AP ra_2.AR ra_2.LH ra_3.AP ra_3.AR
+         ra_3.LH rb_0.AP rb_0.AR rb_0.LH rb_1.AP rb_1.AR rb_1.LH rb_2.AP
+         rb_2.AR rb_2.LH rb_3.AP rb_3.AR rb_3.LH sum(0).AP sum(0).AR sum(0).LH
+         tecla_0 tecla_1
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (18:13:49)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Selecting D register equation as minimal for signal ra_1
+  Information: Selecting D register equation as minimal for signal ra_2
+  Information: Selecting D register equation as minimal for signal ra_3
+  Information: Selecting D register equation as minimal for signal rb_0
+  Information: Selecting D register equation as minimal for signal rb_1
+  Information: Selecting D register equation as minimal for signal rb_2
+  Information: Selecting D register equation as minimal for signal rb_3
+  Information: Selecting D register equation as minimal for signal sum(0)
+  Information: Sum-Splitting output logic for signal sum(4).
+  Information: Sum-Splitting output logic for signal sum(3).
+  Information: Folding logic for signal sum(0).LH.
+  Information: Latched output sum(0) formed with combinatorial logic.
+  Information: Latched output rb_3 formed with combinatorial logic.
+  Information: Latched output rb_2 formed with combinatorial logic.
+  Information: Latched output rb_1 formed with combinatorial logic.
+  Information: Latched output rb_0 formed with combinatorial logic.
+  Information: Folding logic for signal ra_3.LH.
+  Information: Latched output ra_3 formed with combinatorial logic.
+  Information: Folding logic for signal ra_2.LH.
+  Information: Latched output ra_2 formed with combinatorial logic.
+  Information: Folding logic for signal ra_1.LH.
+  Information: Latched output ra_1 formed with combinatorial logic.
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Optimizing logic without changing polarity for signals:
+         dispa(0) dispa(1) dispa(3) dispa(4) dispa(5) dispb(0) dispb(1)
+         dispb(3) dispb(4) dispb(5) sum(1) sum(2) sum(5) sum(6)
+
+  Information: Optimizing logic using best output polarity for signals:
+         S_1 S_2 S_3 S_4 ra_1 ra_2 ra_3 rb_0 rb_1 rb_2 rb_3 sum(0) sum(0)_LH
+
+  Information: Selected logic optimization OFF for signals:
+         dispa(2) dispa(6) dispb(2) dispb(6) sum(3) sum(4) tecla_0 tecla_1
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (18:13:49)
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (18:13:49)
+</CYPRESSTAG>
+
+    S_1 =
+          ra_1.CMB * ra_2.CMB * ra_3.CMB * rb_0.CMB * /rb_1.CMB * rb_2.CMB * 
+          rb_3.CMB 
+        + /ra_1.CMB * /ra_2.CMB * ra_3.CMB * rb_0.CMB * rb_1.CMB * 
+          rb_3.CMB 
+        + /ra_1.CMB * ra_2.CMB * /ra_3.CMB * rb_0.CMB * /rb_2.CMB * 
+          rb_3.CMB 
+        + ra_1.CMB * ra_3.CMB * rb_0.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + /ra_1.CMB * ra_2.CMB * ra_3.CMB * rb_0.CMB * rb_2.CMB * 
+          /rb_3.CMB 
+        + /ra_1.CMB * /ra_2.CMB * /ra_3.CMB * rb_1.CMB * /rb_2.CMB * 
+          /rb_3.CMB 
+        + ra_1.CMB * ra_2.CMB * rb_0.CMB * /rb_1.CMB * /rb_2.CMB * 
+          /rb_3.CMB 
+        + /ra_3.CMB * rb_0.CMB * rb_1.CMB * rb_2.CMB * rb_3.CMB 
+        + ra_3.CMB * /rb_0.CMB * rb_1.CMB * rb_2.CMB * rb_3.CMB 
+        + ra_2.CMB * /rb_0.CMB * rb_1.CMB * rb_2.CMB * rb_3.CMB 
+        + ra_1.CMB * rb_0.CMB * rb_1.CMB * /rb_2.CMB * rb_3.CMB 
+        + /ra_2.CMB * /ra_3.CMB * /rb_0.CMB * rb_1.CMB * /rb_3.CMB 
+        + ra_3.CMB * /rb_0.CMB * /rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + /ra_2.CMB * /rb_0.CMB * rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+        + /ra_3.CMB * /rb_0.CMB * rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+        + ra_3.CMB * rb_0.CMB * /rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+
+    S_2 =
+          ra_2.CMB * ra_3.CMB * rb_1.CMB * /rb_2.CMB * rb_3.CMB 
+        + /ra_2.CMB * /ra_3.CMB * /rb_1.CMB * /rb_2.CMB * rb_3.CMB 
+        + /ra_2.CMB * ra_3.CMB * rb_0.CMB * /rb_1.CMB * /rb_3.CMB 
+        + /ra_3.CMB * rb_0.CMB * /rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + /ra_3.CMB * /rb_0.CMB * /rb_1.CMB * rb_3.CMB 
+        + /rb_0.CMB * /rb_1.CMB * /rb_2.CMB * rb_3.CMB 
+
+    S_3 =
+          /ra_1.CMB * /ra_2.CMB * ra_3.CMB * rb_0.CMB * rb_2.CMB 
+        + ra_2.CMB * /ra_3.CMB * rb_0.CMB * rb_1.CMB * rb_2.CMB 
+        + ra_1.CMB * /ra_3.CMB * rb_0.CMB * rb_1.CMB * rb_2.CMB 
+        + ra_2.CMB * ra_3.CMB * /rb_0.CMB * rb_1.CMB * rb_2.CMB 
+        + /ra_1.CMB * ra_3.CMB * rb_0.CMB * /rb_1.CMB * rb_2.CMB 
+        + /ra_2.CMB * ra_3.CMB * rb_0.CMB * /rb_1.CMB * rb_2.CMB 
+        + ra_1.CMB * ra_2.CMB * /ra_3.CMB * /rb_1.CMB * rb_2.CMB 
+        + ra_2.CMB * ra_3.CMB * rb_0.CMB * rb_1.CMB * /rb_2.CMB 
+        + ra_1.CMB * ra_3.CMB * rb_0.CMB * rb_1.CMB * /rb_2.CMB 
+        + /ra_1.CMB * /ra_2.CMB * /ra_3.CMB * rb_0.CMB * /rb_2.CMB 
+        + ra_2.CMB * /ra_3.CMB * /rb_0.CMB * rb_1.CMB * /rb_2.CMB 
+        + ra_1.CMB * ra_2.CMB * ra_3.CMB * /rb_1.CMB * /rb_2.CMB 
+        + /ra_1.CMB * /ra_3.CMB * rb_0.CMB * /rb_1.CMB * /rb_2.CMB 
+        + /ra_2.CMB * /ra_3.CMB * rb_0.CMB * /rb_1.CMB * /rb_2.CMB 
+        + /ra_3.CMB * /rb_0.CMB * /rb_1.CMB * rb_2.CMB 
+        + ra_3.CMB * /rb_0.CMB * /rb_1.CMB * /rb_2.CMB 
+
+    S_4 =
+          /ra_2.CMB * /ra_3.CMB * /rb_0.CMB * rb_2.CMB 
+        + /ra_2.CMB * ra_3.CMB * /rb_0.CMB * /rb_2.CMB 
+
+    /dispa(0) =
+          /ra_1.CMB * /ra_2.CMB * /ra_3.CMB * sum(0).CMB 
+        + /ra_1.CMB * ra_2.CMB * /ra_3.CMB * /sum(0).CMB 
+
+    /dispa(1) =
+          /ra_1.CMB * ra_2.CMB * /ra_3.CMB * sum(0).CMB 
+        + ra_1.CMB * ra_2.CMB * /ra_3.CMB * /sum(0).CMB 
+
+    /dispa(2) =
+          ra_1.CMB * /ra_2.CMB * /ra_3.CMB * /sum(0).CMB 
+
+    /dispa(3) =
+          /ra_1.CMB * /ra_2.CMB * /ra_3.CMB * sum(0).CMB 
+        + /ra_1.CMB * ra_2.CMB * /ra_3.CMB * /sum(0).CMB 
+        + ra_1.CMB * ra_2.CMB * /ra_3.CMB * sum(0).CMB 
+
+    dispa(4) =
+          /ra_1.CMB * /ra_2.CMB * /sum(0).CMB 
+        + ra_1.CMB * /ra_3.CMB * /sum(0).CMB 
+
+    /dispa(5) =
+          ra_1.CMB * /ra_3.CMB * sum(0).CMB 
+        + /ra_2.CMB * /ra_3.CMB * sum(0).CMB 
+        + ra_1.CMB * /ra_2.CMB * /ra_3.CMB 
+
+    /dispa(6) =
+          /ra_1.CMB * /ra_2.CMB * /ra_3.CMB 
+
+    /dispb(0) =
+          /rb_0.CMB * /rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + rb_0.CMB * /rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+
+    /dispb(1) =
+          /rb_0.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + rb_0.CMB * /rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+
+    /dispb(2) =
+          /rb_0.CMB * rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+
+    /dispb(3) =
+          /rb_0.CMB * /rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + rb_0.CMB * /rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+        + rb_0.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+
+    dispb(4) =
+          /rb_0.CMB * /rb_1.CMB * /rb_2.CMB 
+        + /rb_0.CMB * rb_1.CMB * /rb_3.CMB 
+
+    /dispb(5) =
+          rb_0.CMB * rb_1.CMB * /rb_3.CMB 
+        + rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+        + rb_0.CMB * /rb_2.CMB * /rb_3.CMB 
+
+    /dispb(6) =
+          /rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+
+    ra_1 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + ra_1.CMB * /sum(0)_LH.CMB 
+
+    ra_2 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + ra_2.CMB * /sum(0)_LH.CMB 
+
+    /ra_3 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + ra_3.CMB * /sum(0)_LH.CMB 
+
+    /rb_0 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + rb_0.CMB * tecla_1.CMB 
+        + rb_0.CMB * tecla_0.CMB 
+
+    rb_1 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + rb_1.CMB * tecla_1.CMB 
+        + rb_1.CMB * tecla_0.CMB 
+
+    rb_2 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + rb_2.CMB * tecla_1.CMB 
+        + rb_2.CMB * tecla_0.CMB 
+
+    /rb_3 =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * /boton(1) * boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + /boton(0) * boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          /tecla_0.CMB * /tecla_1.CMB 
+        + rb_3.CMB * tecla_1.CMB 
+        + rb_3.CMB * tecla_0.CMB 
+
+    /sum(0) =
+          /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * /boton(2) * /boton(3) * boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + /boton(0) * /boton(1) * boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + boton(0) * /boton(1) * /boton(2) * /boton(3) * /boton(4) * 
+          /boton(5) * /boton(6) * /boton(7) * /boton(8) * /boton(9) * 
+          sum(0)_LH.CMB 
+        + sum(0).CMB * /sum(0)_LH.CMB 
+
+    /sum(0)_LH =
+          /tecla_0.CMB * /tecla_1.CMB 
+
+    sum(1) =
+          /ra_1.CMB * rb_0.CMB 
+        + ra_1.CMB * /rb_0.CMB 
+
+    sum(2) =
+          ra_1.CMB * ra_2.CMB * rb_0.CMB * rb_1.CMB 
+        + ra_1.CMB * /ra_2.CMB * rb_0.CMB * /rb_1.CMB 
+        + /ra_1.CMB * /ra_2.CMB * rb_1.CMB 
+        + /ra_2.CMB * /rb_0.CMB * rb_1.CMB 
+        + /ra_1.CMB * ra_2.CMB * /rb_1.CMB 
+        + ra_2.CMB * /rb_0.CMB * /rb_1.CMB 
+
+    /sum(3) =
+          /S_3.CMB * /S_4.CMB 
+
+    /sum(4) =
+          /S_1.CMB * /S_2.CMB 
+
+    /sum(5) =
+          ra_1.CMB * ra_2.CMB * ra_3.CMB * rb_0.CMB * /rb_1.CMB * 
+          /rb_3.CMB 
+        + /ra_1.CMB * /ra_2.CMB * rb_0.CMB * rb_2.CMB * rb_3.CMB 
+        + ra_2.CMB * /ra_3.CMB * /rb_0.CMB * rb_1.CMB * /rb_3.CMB 
+        + /ra_1.CMB * /ra_2.CMB * /ra_3.CMB * /rb_2.CMB * /rb_3.CMB 
+        + /ra_3.CMB * rb_1.CMB * rb_2.CMB * rb_3.CMB 
+        + ra_3.CMB * /rb_0.CMB * rb_2.CMB * rb_3.CMB 
+        + rb_0.CMB * /rb_1.CMB * rb_2.CMB * rb_3.CMB 
+        + /ra_1.CMB * /ra_3.CMB * /rb_1.CMB * /rb_2.CMB 
+        + /ra_2.CMB * /ra_3.CMB * /rb_1.CMB * /rb_2.CMB 
+        + rb_0.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + ra_3.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + /ra_2.CMB * /rb_0.CMB * /rb_2.CMB * /rb_3.CMB 
+        + /rb_0.CMB * /rb_1.CMB * /rb_2.CMB 
+        + /rb_1.CMB * /rb_2.CMB * /rb_3.CMB 
+
+    sum(6) =
+          ra_1.CMB * ra_2.CMB * ra_3.CMB * rb_0.CMB * rb_2.CMB * /rb_3.CMB 
+        + /ra_3.CMB * /rb_0.CMB * /rb_1.CMB * rb_3.CMB 
+        + rb_0.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + ra_3.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + ra_2.CMB * rb_1.CMB * rb_2.CMB * /rb_3.CMB 
+        + /rb_2.CMB * rb_3.CMB 
+
+    tecla_0 =
+          /tecla_0.CMB * /tecla_1.CMB 
+
+    tecla_1 =
+          tecla_0.CMB * /tecla_1.CMB 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (18:13:49)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+PARTITION LOGIC            (18:13:49)
+
+Messages:
+  Information: Checking design is strictly SYNCHRONOUS.
+  Information: Initializing Logic Block structures.
+  Information: Checking for duplicate NODE logic.
+  Information: Duplicate Node Logic, replacing sum(0)_LH with tecla_0.
+  Information: Forming input seeds.
+  Information: Forming input seeds.
+  Information: Assigning fixed logic to Logic Blocks.
+  Information: Processing banked global preset, reset and output enable.
+  Information: Separating output logic set to GND/VCC.
+  Information: Validating Logic Block's with pre-placed signals.
+  Information: Separating input register logic.
+  Information: Assigning initializing equations to empty Logic Blocks.
+  Information: Separating output combinatorial logic.
+  Information: Separating disjoint output logic.
+  Information: Separating output node logic.
+  Information: Compacting Logic Block interconnect.
+  .+.+....+...................
+  Information: Separating disjoint output logic.
+  Information: Separating output node logic.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating inputs to Logic Blocks.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Fitting" icon=FILE_RPT_PLACEMENT>
+DESIGN SIGNAL PLACEMENT    (18:13:49)
+</CYPRESSTAG>
+Messages:
+  Information: Fitting signals to Logic Block A.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Fitting signals to Logic Block B.
+  Information: Fitting signals to Logic Block C.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Fitting signals to Logic Block D.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Routing signals to Logic Blocks.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK A PLACEMENT   (18:13:49)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |sum(4)
+++X+++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |UNUSED
+..........++++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |dispb(2)
+..................X+++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |dispa(2)
+..........................X+++++++++++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |sum(3)
+..................................X+++++++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |dispa(6)
+..........................................X+++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |UNUSED
+..................................................++++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  5 
+Total count of unique Product Terms  =  5 
+Total Product Terms to be assigned   =  5 
+Max Product Terms used / available   =   5 /  80   = 6.26 %
+
+
+Control Signals for Logic Block A
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block A
+                 ____________________________________________
+                 |   |= >ra_1.CMB                       |   |                 
+                 |   |= >sum(0).CMB                     |   |                 
+                 |   |= >rb_0.CMB                       |   |                 
+                 |   |= >S_2.CMB                        |   |                 
+                 |   |= >S_3.CMB                        |  2|= sum(4)         
+                 |   |> not used:50                     |   |                 
+                 |   |> not used:51       not used:202 *|   |                 
+                 |   |= >S_4.CMB                        |   |                 
+                 |   |= >rb_1.CMB                       |  3|* not used       
+                 |   |> not used:54                     |   |                 
+                 |   |= >S_1.CMB          not used:204 *|   |                 
+                 |   |> not used:56                     |   |                 
+                 |   |= >rb_3.CMB                       |  4|= dispb(2)       
+                 |   |> not used:58                     |   |                 
+                 |   |> not used:59       not used:206 *|   |                 
+                 |   |> not used:60                     |   |                 
+                 |   |> not used:61                     |  5|= dispa(2)       
+                 |   |> not used:62                     |   |                 
+                 |   |= >ra_2.CMB         not used:208 *|   |                 
+                 |   |> not used:64                     |   |                 
+                 |   |> not used:65                     |  6|= sum(3)         
+                 |   |= >rb_2.CMB                       |   |                 
+                 |   |> not used:67       not used:210 *|   |                 
+                 |   |> not used:68                     |   |                 
+                 |   |= >ra_3.CMB                       |  7|= dispa(6)       
+                 |   |> not used:70                     |   |                 
+                 |   |> not used:71       not used:212 *|   |                 
+                 |   |> not used:72                     |   |                 
+                 |   |> not used:73                     |  8|* not used       
+                 |   |> not used:74                     |   |                 
+                 |   |> not used:75       not used:214 *|   |                 
+                 |   |> not used:76                     |   |                 
+                 |   |> not used:77                     |  9|* not used       
+                 |   |> not used:78                     |   |                 
+                 |   |> not used:79       not used:216 *|   |                 
+                 |   |> not used:80                     |   |                 
+                 |   |> not used:81                     |   |                 
+                 |   |> not used:82                     |   |                 
+                 |   |> not used:83                     |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    5  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |   12  |   36  |
+                 ______________________________________
+                                          17  /   52   = 32  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK B PLACEMENT   (18:13:49)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |[i/p]
+++++++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |[i/p]
+..........++++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |[i/p]
+..................++++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |[i/p]
+..........................++++++++++++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |[i/p]
+..................................++++++++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |UNUSED
+..........................................++++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |UNUSED
+..................................................++++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  0 
+Total count of unique Product Terms  =  0 
+Total Product Terms to be assigned   =  0 
+Max Product Terms used / available   =   0 /  80   = 0.0  %
+
+
+Control Signals for Logic Block B
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block B
+                 ____________________________________________
+                 |   |> not used:84                     |   |                 
+                 |   |> not used:85                     |   |                 
+                 |   |> not used:86                     |   |                 
+                 |   |> not used:87                     |   |                 
+                 |   |> not used:88                     | 14|= boton(4)       
+                 |   |> not used:89                     |   |                 
+                 |   |> not used:90       not used:218 *|   |                 
+                 |   |> not used:91                     |   |                 
+                 |   |> not used:92                     | 15|= boton(3)       
+                 |   |> not used:93                     |   |                 
+                 |   |> not used:94       not used:220 *|   |                 
+                 |   |> not used:95                     |   |                 
+                 |   |> not used:96                     | 16|= boton(2)       
+                 |   |> not used:97                     |   |                 
+                 |   |> not used:98       not used:222 *|   |                 
+                 |   |> not used:99                     |   |                 
+                 |   |> not used:100                    | 17|= boton(1)       
+                 |   |> not used:101                    |   |                 
+                 |   |> not used:102      not used:224 *|   |                 
+                 |   |> not used:103                    |   |                 
+                 |   |> not used:104                    | 18|= boton(0)       
+                 |   |> not used:105                    |   |                 
+                 |   |> not used:106      not used:226 *|   |                 
+                 |   |> not used:107                    |   |                 
+                 |   |> not used:108                    | 19|* not used       
+                 |   |> not used:109                    |   |                 
+                 |   |> not used:110      not used:228 *|   |                 
+                 |   |> not used:111                    |   |                 
+                 |   |> not used:112                    | 20|* not used       
+                 |   |> not used:113                    |   |                 
+                 |   |> not used:114      not used:230 *|   |                 
+                 |   |> not used:115                    |   |                 
+                 |   |> not used:116                    | 21|* not used       
+                 |   |> not used:117                    |   |                 
+                 |   |> not used:118      not used:232 *|   |                 
+                 |   |> not used:119                    |   |                 
+                 |   |> not used:120                    |   |                 
+                 |   |> not used:121                    |   |                 
+                 |   |> not used:122                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    5  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |    0  |   36  |
+                 ______________________________________
+                                           5  /   52   = 9   %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK C PLACEMENT   (18:13:49)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |dispb(6)
+++X+++++++++++++................................................................
+| 1 |(S_2)
+......XXXX+X++X+++++++..........................................................
+| 2 |dispb(5)
+..........X+XX++++++++++++......................................................
+| 3 |(S_4)
+..............++XX++++++++++++..................................................
+| 4 |sum(2)
+..................XXXX++XX++++++++..............................................
+| 5 |(tecla_1)
+......................X+++++++++++++++..........................................
+| 6 |sum(1)
+..........................XX++++++++++++++......................................
+| 7 |(ra_3)
+..............................XXXXXX+++XXX++++..................................
+| 8 |dispb(1)
+..................................++XX++++++++++++..............................
+| 9 |(tecla_0)
+......................................X+++++++++++++++..........................
+|10 |dispa(5)
+..........................................XXX+++++++++++++......................
+|11 |(ra_2)
+..............................................XX++++++XX+++X++..................
+|12 |dispa(4)
+..................................................XX++++++++++++++..............
+|13 |(ra_1)
+......................................................XXXXX+++++++++++..........
+|14 |dispa(1)
+..........................................................++XX++++++++++++......
+|15 |(S_3)
+................................................................XXXXXXXXXXXXXXXX
+________________________________________________________________________________
+
+Total count of outputs placed        =  16 
+Total count of unique Product Terms  =  58 
+Total Product Terms to be assigned   =  66 
+Max Product Terms used / available   =  64 /  80   = 80.1  %
+
+
+Control Signals for Logic Block C
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block C
+                 ____________________________________________
+                 |   |= >rb_1.CMB                       |   |                 
+                 |   |= >boton(5)                       |   |                 
+                 |   |= >boton(6)                       |   |                 
+                 |   |= >boton(9)                       |   |                 
+                 |   |= >rb_3.CMB                       | 24|= dispb(6)       
+                 |   |= >boton(8)                       |   |                 
+                 |   |= >rb_0.CMB                (S_2) =|   |                 
+                 |   |> not used:130                    |   |                 
+                 |   |= >boton(3)                       | 25|= dispb(5)       
+                 |   |= >ra_2.CMB                       |   |                 
+                 |   |> not used:133             (S_4) =|   |                 
+                 |   |> not used:134                    |   |                 
+                 |   |= >boton(2)                       | 26|= sum(2)         
+                 |   |> not used:136                    |   |                 
+                 |   |= >boton(4)            (tecla_1) =|   |                 
+                 |   |> not used:138                    |   |                 
+                 |   |> not used:139                    | 27|= sum(1)         
+                 |   |= >tecla_1.CMB                    |   |                 
+                 |   |> not used:141            (ra_3) =|   |                 
+                 |   |> not used:142                    |   |                 
+                 |   |> not used:143                    | 28|= dispb(1)       
+                 |   |= >sum(0).CMB                     |   |                 
+                 |   |= >boton(7)            (tecla_0) =|   |                 
+                 |   |= >rb_2.CMB                       |   |                 
+                 |   |= >ra_1.CMB                       | 29|= dispa(5)       
+                 |   |> not used:148                    |   |                 
+                 |   |> not used:149            (ra_2) =|   |                 
+                 |   |= >tecla_0.CMB                    |   |                 
+                 |   |= >boton(0)                       | 30|= dispa(4)       
+                 |   |> not used:152                    |   |                 
+                 |   |> not used:153            (ra_1) =|   |                 
+                 |   |= >ra_3.CMB                       |   |                 
+                 |   |> not used:155                    | 31|= dispa(1)       
+                 |   |> not used:156                    |   |                 
+                 |   |> not used:157             (S_3) =|   |                 
+                 |   |> not used:158                    |   |                 
+                 |   |> not used:159                    |   |                 
+                 |   |> not used:160                    |   |                 
+                 |   |= >boton(1)                       |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    8  |    8  |
+                 | Buried Macrocells  |    8  |    8  |
+                 | PIM Input Connects |   20  |   36  |
+                 ______________________________________
+                                          36  /   52   = 69  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK D PLACEMENT   (18:13:49)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |sum(5)
+XXXXXXXXXXXXXX++................................................................
+| 1 |(rb_1)
+......++++++++XXXXXX++..........................................................
+| 2 |dispb(4)
+..........X+++++++++++X+++......................................................
+| 3 |(rb_3)
+..............XX++XXXX+XXXX+++..................................................
+| 4 |sum(0)
+..................+++++++++XXXX+XX..............................................
+| 5 |(rb_2)
+......................+X++X++++X++X+XX..........................................
+| 6 |dispb(0)
+..........................+++++++++X++X+++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |dispa(0)
+..................................++++++++XX++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |dispa(3)
+..........................................XX+++++++++++X++......................
+|11 |(rb_0)
+..............................................XXXXXX++X+++++++..................
+|12 |dispb(3)
+..................................................++XX++++X+++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |sum(6)
+..........................................................XXXXXX++++++++++......
+|15 |(S_1)
+................................................................XXXXXXXXXXXXXXXX
+________________________________________________________________________________
+
+Total count of outputs placed        =  13 
+Total count of unique Product Terms  =  63 
+Total Product Terms to be assigned   =  83 
+Max Product Terms used / available   =  73 /  80   = 91.26 %
+
+
+Control Signals for Logic Block D
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block D
+                 ____________________________________________
+                 |   |= >ra_1.CMB                       |   |                 
+                 |   |= >sum(0).CMB                     |   |                 
+                 |   |= >boton(8)                       |   |                 
+                 |   |= >rb_2.CMB                       |   |                 
+                 |   |= >boton(2)                       | 36|= sum(5)         
+                 |   |> not used:167                    |   |                 
+                 |   |= >tecla_0.CMB            (rb_1) =|   |                 
+                 |   |> not used:169                    |   |                 
+                 |   |= >rb_1.CMB                       | 37|= dispb(4)       
+                 |   |= >boton(4)                       |   |                 
+                 |   |= >ra_2.CMB               (rb_3) =|   |                 
+                 |   |= >boton(5)                       |   |                 
+                 |   |= >rb_3.CMB                       | 38|= sum(0)         
+                 |   |= >boton(7)                       |   |                 
+                 |   |= >boton(9)               (rb_2) =|   |                 
+                 |   |> not used:177                    |   |                 
+                 |   |> not used:178                    | 39|= dispb(0)       
+                 |   |= >boton(6)                       |   |                 
+                 |   |> not used:180      not used:256 *|   |                 
+                 |   |= >tecla_1.CMB                    |   |                 
+                 |   |> not used:182                    | 40|= dispa(0)       
+                 |   |= >rb_0.CMB                       |   |                 
+                 |   |> not used:184      not used:258 *|   |                 
+                 |   |= >boton(0)                       |   |                 
+                 |   |= >ra_3.CMB                       | 41|= dispa(3)       
+                 |   |= >boton(3)                       |   |                 
+                 |   |> not used:188            (rb_0) =|   |                 
+                 |   |> not used:189                    |   |                 
+                 |   |> not used:190                    | 42|= dispb(3)       
+                 |   |> not used:191                    |   |                 
+                 |   |= >boton(1)         not used:262 *|   |                 
+                 |   |> not used:193                    |   |                 
+                 |   |> not used:194                    | 43|= sum(6)         
+                 |   |> not used:195                    |   |                 
+                 |   |> not used:196             (S_1) =|   |                 
+                 |   |> not used:197                    |   |                 
+                 |   |> not used:198                    |   |                 
+                 |   |> not used:199                    |   |                 
+                 |   |> not used:200                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    8  |    8  |
+                 | Buried Macrocells  |    5  |    8  |
+                 | PIM Input Connects |   20  |   36  |
+                 ______________________________________
+                                          33  /   52   = 63  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (18:13:49)
+</CYPRESSTAG>
+
+Device:  c372i
+Package: cy7c372i-125jc
+
+                     1  :  GND
+                     2  :  sum(4)
+                     3  :  Not Used
+                     4  :  dispb(2)
+                     5  :  dispa(2)
+                     6  :  sum(3)
+                     7  :  dispa(6)
+                     8  :  Not Used
+                     9  :  Not Used
+                    10  :  boton(9)
+                    11  :  VPP
+                    12  :  GND
+                    13  :  boton(8)
+                    14  :  boton(4)
+                    15  :  boton(3)
+                    16  :  boton(2)
+                    17  :  boton(1)
+                    18  :  boton(0)
+                    19  :  Not Used
+                    20  :  Not Used
+                    21  :  Not Used
+                    22  :  VCC
+                    23  :  GND
+                    24  :  dispb(6)
+                    25  :  dispb(5)
+                    26  :  sum(2)
+                    27  :  sum(1)
+                    28  :  dispb(1)
+                    29  :  dispa(5)
+                    30  :  dispa(4)
+                    31  :  dispa(1)
+                    32  :  boton(7)
+                    33  :  boton(6)
+                    34  :  GND
+                    35  :  boton(5)
+                    36  :  sum(5)
+                    37  :  dispb(4)
+                    38  :  sum(0)
+                    39  :  dispb(0)
+                    40  :  dispa(0)
+                    41  :  dispa(3)
+                    42  :  dispb(3)
+                    43  :  sum(6)
+                    44  :  VCC
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (18:13:49)
+</CYPRESSTAG>
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    3  |    3  |
+                 | Clock/Inputs       |    2  |    2  |
+                 | I/O Macrocells     |   26  |   32  |
+                 | Buried Macrocells  |   13  |   32  |
+                 | PIM Input Connects |   52  |  156  |
+                 ______________________________________
+                                          96  /  225   = 42  %
+
+
+
+                                      Required     Max (Available)
+          CLOCK/LATCH ENABLE signals     0            2
+          Input REG/LATCH signals        0           37
+          Input PIN signals              5            5
+          Input PINs using I/O cells     5            5
+          Output PIN signals            21           27
+
+
+          Total PIN signals             31           37
+          Macrocells Used               34           64
+          Unique Product Terms         120          320
+
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+PRESET/RESET AND OUTPUT ENABLE COMBINATIONS
+
+PRESET: NONE-COMBINATORIAL
+RESET : NONE-COMBINATORIAL
+Total unique inputs =  24 
+count of combinatorial equations =  34 
+==>OE: GND or VCC
+   count of OE equations =  34 
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Timing" icon=FILE_RPT_TIMING>
+TIMING PATH ANALYSIS       (18:13:49) using Package: cy7c372i-125jc
+</CYPRESSTAG>
+Messages:
+
+----------------------------------------------------------------------------
+Signal Name | Delay Type  |   tmax   | Path Description
+----------------------------------------------------------------------------
+cmb::sum(4)[2]
+inp::boton(0)
+---->ra_1
+---->S_1
+              tPD             22.0 ns    3 passes
+----------------------------------------------------------------------------
+cmb::dispb(2)[4]
+inp::boton(0)
+---->rb_0
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispa(2)[5]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum(3)[6]
+inp::boton(0)
+---->ra_1
+---->S_3
+              tPD             22.0 ns    3 passes
+----------------------------------------------------------------------------
+cmb::dispa(6)[7]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispb(6)[24]
+inp::boton(0)
+---->rb_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispb(5)[25]
+inp::boton(0)
+---->rb_0
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum(2)[26]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum(1)[27]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispb(1)[28]
+inp::boton(0)
+---->rb_0
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispa(5)[29]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispa(4)[30]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispa(1)[31]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum(5)[36]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispb(4)[37]
+inp::boton(0)
+---->rb_0
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum(0)[38]
+inp::boton(0)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::dispb(0)[39]
+inp::boton(0)
+---->rb_0
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispa(0)[40]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispa(3)[41]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::dispb(3)[42]
+inp::boton(0)
+---->rb_0
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum(6)[43]
+inp::boton(0)
+---->ra_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+
+Worst Case Path Summary
+-----------------------
+
+                    tPD = 22.0 ns for sum(4) 
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (18:13:49)
+
+Messages:
+  Information: Processing JEDEC for Logic Block 1.
+  Information: Processing JEDEC for Logic Block 2.
+  Information: Processing JEDEC for Logic Block 3.
+  Information: Processing JEDEC for Logic Block 4.
+  Information: JEDEC output file 'modulo_1.pin' created.
+  Information: JEDEC output file 'modulo_1.jed' created.
+
+  Usercode:    00000000
+  Checksum:    A3D8
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 18:13:49
