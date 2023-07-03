@@ -1,0 +1,7 @@
+ENTITY control IS
+    PORT (
+	clk : in std_logic  ; 
+	tecla : in std_logic_vector (0 to 8) ; 
+	seg : inout std_logic_vector (0 to 6)
+    ) ;
+END control ;

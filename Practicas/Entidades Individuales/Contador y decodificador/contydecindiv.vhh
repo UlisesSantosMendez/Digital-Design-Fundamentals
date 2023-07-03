@@ -1,0 +1,8 @@
+ENTITY display IS
+    PORT (
+	clk : in std_logic  ; 
+	reset : in std_logic  ; 
+	d : inout std_logic_vector (6 downto 0) ; 
+	q : inout std_logic_vector (3 downto 0)
+    ) ;
+END display ;

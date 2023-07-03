@@ -1,0 +1,7 @@
+ENTITY estado IS
+    PORT (
+	clk : in std_logic  ; 
+	x : in std_logic  ; 
+	z : inout std_logic 
+    ) ;
+END estado ;

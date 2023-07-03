@@ -1,0 +1,19 @@
+Cypress Package: cy7c372i-125jc  PinOut File: contydecindiv.pin
+
+This file was created on 06/09/2020 at 20:52:19 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+reset in <> Disabled Normal 10 <> [Auto] 
+clk gclk <> Disabled Normal 13 <> [Auto] 
+d(3) out <> Disabled Normal 24 <> [Auto] 
+d(0) out <> Disabled Normal 27 <> [Auto] 
+d(6) out <> Disabled Normal 28 <> [Auto] 
+q(3) inout <> Disabled Normal 36 <> [Auto] 
+q(2) inout <> Disabled Normal 37 <> [Auto] 
+q(1) inout <> Disabled Normal 38 <> [Auto] 
+d(5) out <> Disabled Normal 39 <> [Auto] 
+d(1) out <> Disabled Normal 40 <> [Auto] 
+d(4) out <> Disabled Normal 41 <> [Auto] 
+d(2) out <> Disabled Normal 42 <> [Auto] 
+q(0) inout <> Disabled Normal 43 <> [Auto] 

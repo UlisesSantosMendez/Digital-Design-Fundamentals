@@ -1,0 +1,11 @@
+ENTITY sistema IS
+    PORT (
+	clk : in std_logic  ; 
+	tecla : in std_logic_vector (0 to 8) ; 
+	c : inout std_logic_vector (3 downto 0) ; 
+	a : inout std_logic_vector (3 downto 0) ; 
+	q : inout std_logic_vector (3 downto 0) ; 
+	d : inout std_logic_vector (3 downto 0) ; 
+	seg : inout std_logic_vector (0 to 6)
+    ) ;
+END sistema ;

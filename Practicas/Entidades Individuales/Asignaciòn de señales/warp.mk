@@ -1,0 +1,1 @@
+-m -yu -e10 -w100 -o2 -ygs -fO -fP -v10 -dc372i -pcy7c372il-66jc -b entidadesindiv.vhd -u asigsenal.hie -uch00 

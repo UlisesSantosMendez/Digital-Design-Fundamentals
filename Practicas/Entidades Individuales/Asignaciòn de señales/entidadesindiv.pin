@@ -1,0 +1,23 @@
+Cypress Package: cy7c372il-66jc  PinOut File: entidadesindiv.pin
+
+This file was created on 06/10/2020 at 18:08:27 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+tecla(4) in <> Disabled Normal 2 <> [Auto] 
+tecla(1) in <> Disabled Normal 3 <> [Auto] 
+tecla(8) in <> Disabled Normal 10 <> [Auto] 
+clk gclk <> Disabled Normal 13 <> [Auto] 
+tecla(3) in <> Disabled Normal 14 <> [Auto] 
+tecla(0) in <> Disabled Normal 15 <> [Auto] 
+tecla(2) in <> Disabled Normal 24 <> [Auto] 
+tecla(7) in <> Disabled Normal 32 <> [Auto] 
+tecla(6) in <> Disabled Normal 33 <> [Auto] 
+tecla(5) in <> Disabled Normal 35 <> [Auto] 
+seg(5) out <> Disabled Normal 36 <> [Auto] 
+seg(2) out <> Disabled Normal 37 <> [Auto] 
+seg(0) out <> Disabled Normal 38 <> [Auto] 
+seg(1) out <> Disabled Normal 40 <> [Auto] 
+seg(4) out <> Disabled Normal 41 <> [Auto] 
+seg(3) out <> Disabled Normal 42 <> [Auto] 
+seg(6) out <> Disabled Normal 43 <> [Auto] 

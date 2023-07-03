@@ -1,0 +1,1205 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  tresentidades.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fO -fP -v10 -dc372i -pcy7c372i-125jc -b tresentidades.vhd -u threentitys.hie -uch00
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Wed Jun 10 17:16:03 2020
+
+Library 'work' => directory 'lc372i'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Wed Jun 10 17:16:04 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Wed Jun 10 17:16:04 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 8 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 4 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 41 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (17:16:05)
+
+Input File(s): tresentidades.pla
+Device       : c372i
+Package      : cy7c372i-125jc
+ReportFile   : tresentidades.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND UserCode 00000000 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP DT-OPT ALL
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (17:16:05)
+
+Messages:
+  Information: Generating both D & T register equations for signal d(0).D
+  Information: Expanding XOR equation found on signal d(0).T
+  Information: Generating both D & T register equations for signal d(1).D
+  Information: Expanding XOR equation found on signal d(1).T
+  Information: Generating both D & T register equations for signal d(2).D
+  Information: Expanding XOR equation found on signal d(2).T
+  Information: Generating both D & T register equations for signal d(3).D
+  Information: Expanding XOR equation found on signal d(3).T
+  Information: Generating both D & T register equations for signal q(0).D
+  Information: Expanding XOR equation found on signal q(0).T
+  Information: Generating both D & T register equations for signal q(1).D
+  Information: Expanding XOR equation found on signal q(1).T
+  Information: Generating both D & T register equations for signal q(2).D
+  Information: Expanding XOR equation found on signal q(2).T
+  Information: Generating both D & T register equations for signal q(3).D
+  Information: Expanding XOR equation found on signal q(3).T
+  Information: Optimizing logic without changing polarity for signals:
+         d(0).T d(1).T d(2).T d(3).T q(0).T q(1).T q(2).T q(3).T
+
+  Information: Optimizing logic using best output polarity for signals:
+         c(0) c(1) c(2) c(3) seg(0) seg(1) seg(3) seg(4) seg(5)
+
+  Information: Selected logic optimization OFF for signals:
+         a(0) a(1) a(2) a(3) d(0).D d(0).C d(1).D d(1).C d(2).D d(2).C d(3).D
+         d(3).C q(0).D q(0).C q(1).D q(1).C q(2).D q(2).C q(3).D q(3).C seg(2)
+         seg(6)
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (17:16:05)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Selecting D register equation as minimal for signal q(3)
+  Information: Selecting D register equation as minimal for signal q(2)
+  Information: Selecting D register equation as minimal for signal q(1)
+  Information: Selecting D register equation as minimal for signal q(0)
+  Information: Selecting D register equation as minimal for signal d(3)
+  Information: Selecting D register equation as minimal for signal d(2)
+  Information: Selecting D register equation as minimal for signal d(1)
+  Information: Selecting D register equation as minimal for signal d(0)
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (17:16:06)
+</CYPRESSTAG>
+
+    a(0) =
+          c(0).CMB 
+
+    a(1) =
+          c(1).CMB 
+
+    a(2) =
+          c(2).CMB 
+
+    a(3) =
+          c(3).CMB 
+
+    /c(0) =
+          /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+
+    c(1) =
+          /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+
+    c(2) =
+          /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+
+    /c(3) =
+          /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * /tecla(2) * tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * /tecla(1) * tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + /tecla(0) * tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+        + tecla(0) * /tecla(1) * /tecla(2) * /tecla(3) * /tecla(4) * 
+          /tecla(5) * /tecla(6) * /tecla(7) * /tecla(8) 
+
+    d(0).D =
+          q(0).Q 
+
+    d(0).AP =
+          GND
+
+    d(0).AR =
+          GND
+
+    d(0).C =
+          clk 
+
+    d(1).D =
+          q(1).Q 
+
+    d(1).AP =
+          GND
+
+    d(1).AR =
+          GND
+
+    d(1).C =
+          clk 
+
+    d(2).D =
+          q(2).Q 
+
+    d(2).AP =
+          GND
+
+    d(2).AR =
+          GND
+
+    d(2).C =
+          clk 
+
+    d(3).D =
+          q(3).Q 
+
+    d(3).AP =
+          GND
+
+    d(3).AR =
+          GND
+
+    d(3).C =
+          clk 
+
+    q(0).D =
+          c(0).CMB 
+
+    q(0).AP =
+          GND
+
+    q(0).AR =
+          GND
+
+    q(0).C =
+          clk 
+
+    q(1).D =
+          c(1).CMB 
+
+    q(1).AP =
+          GND
+
+    q(1).AR =
+          GND
+
+    q(1).C =
+          clk 
+
+    q(2).D =
+          c(2).CMB 
+
+    q(2).AP =
+          GND
+
+    q(2).AR =
+          GND
+
+    q(2).C =
+          clk 
+
+    q(3).D =
+          c(3).CMB 
+
+    q(3).AP =
+          GND
+
+    q(3).AR =
+          GND
+
+    q(3).C =
+          clk 
+
+    seg(0) =
+          /d(0).Q * /d(1).Q * d(2).Q * /d(3).Q 
+        + d(0).Q * /d(1).Q * /d(2).Q * /d(3).Q 
+
+    seg(1) =
+          /d(0).Q * d(1).Q * d(2).Q * /d(3).Q 
+        + d(0).Q * /d(1).Q * d(2).Q * /d(3).Q 
+
+    seg(2) =
+          /d(0).Q * d(1).Q * /d(2).Q * /d(3).Q 
+
+    seg(3) =
+          d(0).Q * d(1).Q * d(2).Q * /d(3).Q 
+        + /d(0).Q * /d(1).Q * d(2).Q * /d(3).Q 
+        + d(0).Q * /d(1).Q * /d(2).Q * /d(3).Q 
+
+    /seg(4) =
+          /d(0).Q * /d(1).Q * /d(2).Q 
+        + /d(0).Q * d(1).Q * /d(3).Q 
+
+    seg(5) =
+          d(0).Q * d(1).Q * /d(3).Q 
+        + d(1).Q * /d(2).Q * /d(3).Q 
+        + d(0).Q * /d(2).Q * /d(3).Q 
+
+    seg(6) =
+          /d(1).Q * /d(2).Q * /d(3).Q 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (17:16:06)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+PARTITION LOGIC            (17:16:06)
+
+Messages:
+  Information: Checking design is strictly SYNCHRONOUS.
+  Information: Initializing Logic Block structures.
+  Information: Checking for duplicate NODE logic.
+  Information: Forming input seeds.
+  Information: Forming input seeds.
+  Information: Assigning fixed logic to Logic Blocks.
+  Information: Processing banked global preset, reset and output enable.
+  Information: Separating output logic set to GND/VCC.
+  Information: Validating Logic Block's with pre-placed signals.
+  Information: Separating input register logic.
+  Information: Assigning initializing equations to empty Logic Blocks.
+  Information: Separating output combinatorial logic.
+  Information: Separating disjoint output logic.
+  Information: Separating output node logic.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Compacting Logic Block interconnect.
+  .+.+..+.................
+  Information: Separating disjoint output logic.
+  Information: Separating output node logic.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating inputs to Logic Blocks.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Fitting" icon=FILE_RPT_PLACEMENT>
+DESIGN SIGNAL PLACEMENT    (17:16:06)
+</CYPRESSTAG>
+Messages:
+  Information: Fitting signals to Logic Block A.
+  Information: Fitting signals to Logic Block B.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Fitting signals to Logic Block C.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Fitting signals to Logic Block D.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Routing signals to Logic Blocks.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK A PLACEMENT   (17:16:06)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |[i/p]
+++++++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |[i/p]
+..........++++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |[i/p]
+..................++++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |[i/p]
+..........................++++++++++++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |[i/p]
+..................................++++++++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |UNUSED
+..........................................++++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |UNUSED
+..................................................++++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  0 
+Total count of unique Product Terms  =  0 
+Total Product Terms to be assigned   =  0 
+Max Product Terms used / available   =   0 /  80   = 0.0  %
+
+
+Control Signals for Logic Block A
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block A
+                 ____________________________________________
+                 |   |> not used:45                     |   |                 
+                 |   |> not used:46                     |   |                 
+                 |   |> not used:47                     |   |                 
+                 |   |> not used:48                     |   |                 
+                 |   |> not used:49                     |  2|= tecla(4)       
+                 |   |> not used:50                     |   |                 
+                 |   |> not used:51       not used:202 *|   |                 
+                 |   |> not used:52                     |   |                 
+                 |   |> not used:53                     |  3|= tecla(3)       
+                 |   |> not used:54                     |   |                 
+                 |   |> not used:55       not used:204 *|   |                 
+                 |   |> not used:56                     |   |                 
+                 |   |> not used:57                     |  4|= tecla(2)       
+                 |   |> not used:58                     |   |                 
+                 |   |> not used:59       not used:206 *|   |                 
+                 |   |> not used:60                     |   |                 
+                 |   |> not used:61                     |  5|= tecla(1)       
+                 |   |> not used:62                     |   |                 
+                 |   |> not used:63       not used:208 *|   |                 
+                 |   |> not used:64                     |   |                 
+                 |   |> not used:65                     |  6|= tecla(0)       
+                 |   |> not used:66                     |   |                 
+                 |   |> not used:67       not used:210 *|   |                 
+                 |   |> not used:68                     |   |                 
+                 |   |> not used:69                     |  7|* not used       
+                 |   |> not used:70                     |   |                 
+                 |   |> not used:71       not used:212 *|   |                 
+                 |   |> not used:72                     |   |                 
+                 |   |> not used:73                     |  8|* not used       
+                 |   |> not used:74                     |   |                 
+                 |   |> not used:75       not used:214 *|   |                 
+                 |   |> not used:76                     |   |                 
+                 |   |> not used:77                     |  9|* not used       
+                 |   |> not used:78                     |   |                 
+                 |   |> not used:79       not used:216 *|   |                 
+                 |   |> not used:80                     |   |                 
+                 |   |> not used:81                     |   |                 
+                 |   |> not used:82                     |   |                 
+                 |   |> not used:83                     |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    5  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |    0  |   36  |
+                 ______________________________________
+                                           5  /   52   = 9   %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK B PLACEMENT   (17:16:06)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |seg(5)
+XXX+++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |seg(6)
+..........X+++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |seg(4)
+..................XX++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |seg(0)
+..........................++++++++XX++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |seg(3)
+..................................XX++X+++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |seg(1)
+..........................................XX++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |seg(2)
+..................................................X+++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  7 
+Total count of unique Product Terms  =  12 
+Total Product Terms to be assigned   =  14 
+Max Product Terms used / available   =  12 /  80   = 15.1  %
+
+
+Control Signals for Logic Block B
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block B
+                 ____________________________________________
+                 |   |> not used:84                     |   |                 
+                 |   |> not used:85                     |   |                 
+                 |   |= >d(2).Q                         |   |                 
+                 |   |> not used:87                     |   |                 
+                 |   |= >d(0).Q                         | 14|= seg(5)         
+                 |   |> not used:89                     |   |                 
+                 |   |> not used:90       not used:218 *|   |                 
+                 |   |> not used:91                     |   |                 
+                 |   |= >d(1).Q                         | 15|= seg(6)         
+                 |   |> not used:93                     |   |                 
+                 |   |> not used:94       not used:220 *|   |                 
+                 |   |> not used:95                     |   |                 
+                 |   |= >d(3).Q                         | 16|= seg(4)         
+                 |   |> not used:97                     |   |                 
+                 |   |> not used:98       not used:222 *|   |                 
+                 |   |> not used:99                     |   |                 
+                 |   |> not used:100                    | 17|= seg(0)         
+                 |   |> not used:101                    |   |                 
+                 |   |> not used:102      not used:224 *|   |                 
+                 |   |> not used:103                    |   |                 
+                 |   |> not used:104                    | 18|= seg(3)         
+                 |   |> not used:105                    |   |                 
+                 |   |> not used:106      not used:226 *|   |                 
+                 |   |> not used:107                    |   |                 
+                 |   |> not used:108                    | 19|= seg(1)         
+                 |   |> not used:109                    |   |                 
+                 |   |> not used:110      not used:228 *|   |                 
+                 |   |> not used:111                    |   |                 
+                 |   |> not used:112                    | 20|= seg(2)         
+                 |   |> not used:113                    |   |                 
+                 |   |> not used:114      not used:230 *|   |                 
+                 |   |> not used:115                    |   |                 
+                 |   |> not used:116                    | 21|* not used       
+                 |   |> not used:117                    |   |                 
+                 |   |> not used:118      not used:232 *|   |                 
+                 |   |> not used:119                    |   |                 
+                 |   |> not used:120                    |   |                 
+                 |   |> not used:121                    |   |                 
+                 |   |> not used:122                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    7  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |    4  |   36  |
+                 ______________________________________
+                                          11  /   52   = 21  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK C PLACEMENT   (17:16:06)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |d(3)
+++X+++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |a(2)
+..........X+++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |c(0)
+..................XX++++++XX++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |c(1)
+..........................XX++++++XX++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |c(3)
+..................................XXXX++++XX++XX++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |c(2)
+..........................................XX++XX++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |a(1)
+..................................................X+++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |a(3)
+..........................................................X+++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  8 
+Total count of unique Product Terms  =  12 
+Total Product Terms to be assigned   =  23 
+Max Product Terms used / available   =  16 /  80   = 20.1  %
+
+
+Control Signals for Logic Block C
+---------------------------------
+CLK pin 13 : clk
+CLK pin 35 : <not used>
+PRESET      : GND
+RESET       : GND
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block C
+                 ____________________________________________
+                 |   |> not used:123                    |   |                 
+                 |   |= >tecla(5)                       |   |                 
+                 |   |= >tecla(6)                       |   |                 
+                 |   |= >c(3).CMB                       |   |                 
+                 |   |> not used:127                    | 24|= d(3)           
+                 |   |> not used:128                    |   |                 
+                 |   |> not used:129      not used:234 *|   |                 
+                 |   |= >c(2).CMB                       |   |                 
+                 |   |> not used:131                    | 25|= a(2)           
+                 |   |> not used:132                    |   |                 
+                 |   |> not used:133      not used:236 *|   |                 
+                 |   |= >q(3).Q                         |   |                 
+                 |   |= >tecla(1)                       | 26|= c(0)           
+                 |   |= >c(1).CMB                       |   |                 
+                 |   |> not used:137      not used:238 *|   |                 
+                 |   |= >tecla(2)                       |   |                 
+                 |   |> not used:139                    | 27|= c(1)           
+                 |   |= >tecla(8)                       |   |                 
+                 |   |> not used:141      not used:240 *|   |                 
+                 |   |> not used:142                    |   |                 
+                 |   |> not used:143                    | 28|= c(3)           
+                 |   |= >tecla(4)                       |   |                 
+                 |   |= >tecla(7)         not used:242 *|   |                 
+                 |   |> not used:146                    |   |                 
+                 |   |> not used:147                    | 29|= c(2)           
+                 |   |= >tecla(3)                       |   |                 
+                 |   |> not used:149      not used:244 *|   |                 
+                 |   |= >tecla(0)                       |   |                 
+                 |   |> not used:151                    | 30|= a(1)           
+                 |   |> not used:152                    |   |                 
+                 |   |> not used:153      not used:246 *|   |                 
+                 |   |> not used:154                    |   |                 
+                 |   |> not used:155                    | 31|= a(3)           
+                 |   |> not used:156                    |   |                 
+                 |   |> not used:157      not used:248 *|   |                 
+                 |   |> not used:158                    |   |                 
+                 |   |> not used:159                    |   |                 
+                 |   |> not used:160                    |   |                 
+                 |   |> not used:161                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    8  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |   13  |   36  |
+                 ______________________________________
+                                          21  /   52   = 40  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK D PLACEMENT   (17:16:06)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |q(3)
+++X+++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |d(2)
+..........X+++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |q(0)
+..................++++++++X+++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |a(0)
+..........................X+++++++++++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |q(2)
+..................................X+++++++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |d(0)
+..........................................X+++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |d(1)
+..................................................X+++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |q(1)
+..........................................................X+++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  8 
+Total count of unique Product Terms  =  7 
+Total Product Terms to be assigned   =  8 
+Max Product Terms used / available   =   7 /  80   = 8.76 %
+
+
+Control Signals for Logic Block D
+---------------------------------
+CLK pin 13 : clk
+CLK pin 35 : <not used>
+PRESET      : GND
+RESET       : GND
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block D
+                 ____________________________________________
+                 |   |= >c(1).CMB                       |   |                 
+                 |   |= >q(0).Q                         |   |                 
+                 |   |> not used:164                    |   |                 
+                 |   |> not used:165                    |   |                 
+                 |   |= >c(3).CMB                       | 36|= q(3)           
+                 |   |> not used:167                    |   |                 
+                 |   |> not used:168      not used:250 *|   |                 
+                 |   |> not used:169                    |   |                 
+                 |   |= >q(1).Q                         | 37|= d(2)           
+                 |   |= >c(0).CMB                       |   |                 
+                 |   |> not used:172      not used:252 *|   |                 
+                 |   |> not used:173                    |   |                 
+                 |   |> not used:174                    | 38|= q(0)           
+                 |   |> not used:175                    |   |                 
+                 |   |= >q(2).Q           not used:254 *|   |                 
+                 |   |> not used:177                    |   |                 
+                 |   |= >c(2).CMB                       | 39|= a(0)           
+                 |   |> not used:179                    |   |                 
+                 |   |> not used:180      not used:256 *|   |                 
+                 |   |> not used:181                    |   |                 
+                 |   |> not used:182                    | 40|= q(2)           
+                 |   |> not used:183                    |   |                 
+                 |   |> not used:184      not used:258 *|   |                 
+                 |   |> not used:185                    |   |                 
+                 |   |> not used:186                    | 41|= d(0)           
+                 |   |> not used:187                    |   |                 
+                 |   |> not used:188      not used:260 *|   |                 
+                 |   |> not used:189                    |   |                 
+                 |   |> not used:190                    | 42|= d(1)           
+                 |   |> not used:191                    |   |                 
+                 |   |> not used:192      not used:262 *|   |                 
+                 |   |> not used:193                    |   |                 
+                 |   |> not used:194                    | 43|= q(1)           
+                 |   |> not used:195                    |   |                 
+                 |   |> not used:196      not used:264 *|   |                 
+                 |   |> not used:197                    |   |                 
+                 |   |> not used:198                    |   |                 
+                 |   |> not used:199                    |   |                 
+                 |   |> not used:200                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    8  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |    7  |   36  |
+                 ______________________________________
+                                          15  /   52   = 28  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (17:16:06)
+</CYPRESSTAG>
+
+Device:  c372i
+Package: cy7c372i-125jc
+
+                     1  :  GND
+                     2  :  tecla(4)
+                     3  :  tecla(3)
+                     4  :  tecla(2)
+                     5  :  tecla(1)
+                     6  :  tecla(0)
+                     7  :  Not Used
+                     8  :  Not Used
+                     9  :  Not Used
+                    10  :  tecla(8)
+                    11  :  VPP
+                    12  :  GND
+                    13  :  clk
+                    14  :  seg(5)
+                    15  :  seg(6)
+                    16  :  seg(4)
+                    17  :  seg(0)
+                    18  :  seg(3)
+                    19  :  seg(1)
+                    20  :  seg(2)
+                    21  :  Not Used
+                    22  :  VCC
+                    23  :  GND
+                    24  :  d(3)
+                    25  :  a(2)
+                    26  :  c(0)
+                    27  :  c(1)
+                    28  :  c(3)
+                    29  :  c(2)
+                    30  :  a(1)
+                    31  :  a(3)
+                    32  :  tecla(7)
+                    33  :  tecla(6)
+                    34  :  GND
+                    35  :  tecla(5)
+                    36  :  q(3)
+                    37  :  d(2)
+                    38  :  q(0)
+                    39  :  a(0)
+                    40  :  q(2)
+                    41  :  d(0)
+                    42  :  d(1)
+                    43  :  q(1)
+                    44  :  VCC
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (17:16:06)
+</CYPRESSTAG>
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    3  |    3  |
+                 | Clock/Inputs       |    2  |    2  |
+                 | I/O Macrocells     |   28  |   32  |
+                 | Buried Macrocells  |    0  |   32  |
+                 | PIM Input Connects |   24  |  156  |
+                 ______________________________________
+                                          57  /  225   = 25  %
+
+
+
+                                      Required     Max (Available)
+          CLOCK/LATCH ENABLE signals     1            2
+          Input REG/LATCH signals        0           36
+          Input PIN signals              4            4
+          Input PINs using I/O cells     5            5
+          Output PIN signals            23           27
+
+
+          Total PIN signals             33           37
+          Macrocells Used               23           64
+          Unique Product Terms          28          320
+
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+PRESET/RESET AND OUTPUT ENABLE COMBINATIONS
+
+PRESET: NONE-COMBINATORIAL
+RESET : NONE-COMBINATORIAL
+Total unique inputs =  17 
+count of combinatorial equations =  15 
+==>OE: GND or VCC
+   count of OE equations =  15 
+
+
+PRESET: GND
+RESET : GND
+Used by Logic Blocks: CD
+Total unique inputs =  8 
+count of registered equations =  8 
+==>OE: GND or VCC
+   count of OE equations =  8 
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Timing" icon=FILE_RPT_TIMING>
+TIMING PATH ANALYSIS       (17:16:06) using Package: cy7c372i-125jc
+</CYPRESSTAG>
+Messages:
+
+----------------------------------------------------------------------------
+Signal Name | Delay Type  |   tmax   | Path Description
+----------------------------------------------------------------------------
+cmb::seg(5)[14]
+inp::d(0).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::seg(6)[15]
+inp::d(1).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::seg(4)[16]
+inp::d(0).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::seg(0)[17]
+inp::d(0).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::seg(3)[18]
+inp::d(0).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::seg(1)[19]
+inp::d(0).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::seg(2)[20]
+inp::d(0).Q
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+reg::d(3)[24]
+inp::q(3).Q
+              tSCS            8.0 ns     1 pass
+out::seg(0)
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+cmb::a(2)[25]
+inp::tecla(0)
+---->c(2)
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::c(0)[26]
+inp::tecla(0)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::c(1)[27]
+inp::tecla(0)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::c(3)[28]
+inp::tecla(0)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::c(2)[29]
+inp::tecla(0)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::a(1)[30]
+inp::tecla(0)
+---->c(1)
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::a(3)[31]
+inp::tecla(0)
+---->c(3)
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+reg::q(3)[36]
+inp::tecla(0)
+---->c(3)
+              tS              11.5 ns    2 passes
+out::q(3)
+              tCO             6.5 ns   
+----------------------------------------------------------------------------
+reg::d(2)[37]
+inp::q(2).Q
+              tSCS            8.0 ns     1 pass
+out::seg(0)
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+reg::q(0)[38]
+inp::tecla(0)
+---->c(0)
+              tS              11.5 ns    2 passes
+out::q(0)
+              tCO             6.5 ns   
+----------------------------------------------------------------------------
+cmb::a(0)[39]
+inp::tecla(0)
+---->c(0)
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+reg::q(2)[40]
+inp::tecla(0)
+---->c(2)
+              tS              11.5 ns    2 passes
+out::q(2)
+              tCO             6.5 ns   
+----------------------------------------------------------------------------
+reg::d(0)[41]
+inp::q(0).Q
+              tSCS            8.0 ns     1 pass
+out::seg(0)
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+reg::d(1)[42]
+inp::q(1).Q
+              tSCS            8.0 ns     1 pass
+out::seg(0)
+              tCO             12.5 ns    1 pass
+----------------------------------------------------------------------------
+reg::q(1)[43]
+inp::tecla(0)
+---->c(1)
+              tS              11.5 ns    2 passes
+out::q(1)
+              tCO             6.5 ns   
+----------------------------------------------------------------------------
+
+Worst Case Path Summary
+-----------------------
+
+                    tPD = 16.0 ns for a(2) 
+                     tS = 11.5 ns for q(3).D 
+                   tSCS = 8.0 ns for d(3).D  using clock signal clk and fMAX = 125 MHz
+                    tCO = 12.5 ns for seg(5) 
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (17:16:06)
+
+Messages:
+  Information: Processing JEDEC for Logic Block 1.
+  Information: Processing JEDEC for Logic Block 2.
+  Information: Processing JEDEC for Logic Block 3.
+  Information: Processing JEDEC for Logic Block 4.
+  Information: JEDEC output file 'tresentidades.pin' created.
+  Information: JEDEC output file 'tresentidades.jed' created.
+
+  Usercode:    00000000
+  Checksum:    026B
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 17:16:06
