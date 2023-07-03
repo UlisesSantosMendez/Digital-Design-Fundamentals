@@ -1,0 +1,2 @@
+bufftristate.vhd #Entity triestado 3
+bufftristate.vhd #Architecture bufftries triestado 8
