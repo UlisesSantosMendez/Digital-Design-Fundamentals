@@ -1,0 +1,28 @@
+Cypress Package: cy7c372i-125jc  PinOut File: multiplexor.pin
+
+This file was created on 06/19/2020 at 15:40:09 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+st(1) in <> Disabled Normal 2 <> [Auto] 
+s(0) in <> Disabled Normal 3 <> [Auto] 
+r(0) in <> Disabled Normal 4 <> [Auto] 
+pc(0) in <> Disabled Normal 5 <> [Auto] 
+d(0) in <> Disabled Normal 6 <> [Auto] 
+st(3) in <> Disabled Normal 10 <> [Auto] 
+r(3) in <> Disabled Normal 13 <> [Auto] 
+st(0) in <> Disabled Normal 14 <> [Auto] 
+r(2) in <> Disabled Normal 15 <> [Auto] 
+pc(2) in <> Disabled Normal 16 <> [Auto] 
+d(2) in <> Disabled Normal 17 <> [Auto] 
+s(1) in <> Disabled Normal 24 <> [Auto] 
+r(1) in <> Disabled Normal 25 <> [Auto] 
+pc(1) in <> Disabled Normal 26 <> [Auto] 
+d(1) in <> Disabled Normal 27 <> [Auto] 
+pc(3) in <> Disabled Normal 32 <> [Auto] 
+d(3) in <> Disabled Normal 33 <> [Auto] 
+st(2) in <> Disabled Normal 35 <> [Auto] 
+y(3) out <> Disabled Normal 36 <> [Auto] 
+y(0) out <> Disabled Normal 39 <> [Auto] 
+y(2) out <> Disabled Normal 40 <> [Auto] 
+y(1) out <> Disabled Normal 41 <> [Auto] 

@@ -1,0 +1,18 @@
+Cypress Package: cy7c372i-125jc  PinOut File: pointer.pin
+
+This file was created on 06/19/2020 at 15:58:51 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+pop in <> Disabled Normal 2 <> [Auto] 
+pc(3) in <> Disabled Normal 10 <> [Auto] 
+clk gclk <> Disabled Normal 13 <> [Auto] 
+pc(0) in <> Disabled Normal 14 <> [Auto] 
+fe in <> Disabled Normal 24 <> [Auto] 
+pc(2) in <> Disabled Normal 32 <> [Auto] 
+pc(1) in <> Disabled Normal 33 <> [Auto] 
+push in <> Disabled Normal 35 <> [Auto] 
+st(3) inout <> Disabled Normal 36 <> [Auto] 
+st(1) inout <> Disabled Normal 39 <> [Auto] 
+st(2) inout <> Disabled Normal 41 <> [Auto] 
+st(0) inout <> Disabled Normal 43 <> [Auto] 

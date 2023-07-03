@@ -1,0 +1,10 @@
+ENTITY stack IS
+    PORT (
+	clk : in std_logic  ; 
+	fe : in std_logic  ; 
+	push : in std_logic  ; 
+	pop : in std_logic  ; 
+	pc : inout std_logic_vector (3 downto 0) ; 
+	st : inout std_logic_vector (3 downto 0)
+    ) ;
+END stack ;

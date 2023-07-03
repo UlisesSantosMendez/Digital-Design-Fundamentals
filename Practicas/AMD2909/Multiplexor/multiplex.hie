@@ -1,0 +1,2 @@
+multiplexor.vhd #Entity mux_4 3
+multiplexor.vhd #Architecture arq_mux mux_4 9

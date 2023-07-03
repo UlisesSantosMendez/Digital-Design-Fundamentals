@@ -1,0 +1,16 @@
+Cypress Package: cy7c372i-125jc  PinOut File: fourbits.pin
+
+This file was created on 06/19/2020 at 14:22:20 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+er in <> Disabled Normal 2 <> [Auto] 
+r(3) in <> Disabled Normal 10 <> [Auto] 
+clk gclk <> Disabled Normal 13 <> [Auto] 
+r(2) in <> Disabled Normal 32 <> [Auto] 
+r(1) in <> Disabled Normal 33 <> [Auto] 
+r(0) in <> Disabled Normal 35 <> [Auto] 
+reg(3) inout <> Disabled Normal 36 <> [Auto] 
+reg(0) inout <> Disabled Normal 39 <> [Auto] 
+reg(2) inout <> Disabled Normal 40 <> [Auto] 
+reg(1) inout <> Disabled Normal 41 <> [Auto] 
