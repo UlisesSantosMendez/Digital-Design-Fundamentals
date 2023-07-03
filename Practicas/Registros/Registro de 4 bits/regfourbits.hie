@@ -1,0 +1,2 @@
+fourbitsreg.vhd #Entity fourbits 3
+fourbitsreg.vhd #Architecture regis fourbits 9

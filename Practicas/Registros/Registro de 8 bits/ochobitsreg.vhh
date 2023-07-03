@@ -1,0 +1,7 @@
+ENTITY ochobits IS
+    PORT (
+	d : in std_logic_vector (0 to 7) ; 
+	clk : in std_logic  ; 
+	q : inout std_logic_vector (0 to 7)
+    ) ;
+END ochobits ;

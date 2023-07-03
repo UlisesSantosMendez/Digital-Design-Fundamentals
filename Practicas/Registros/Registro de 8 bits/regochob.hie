@@ -1,0 +1,2 @@
+ochobitsreg.vhd #Entity ochobits 3
+ochobitsreg.vhd #Architecture registro ochobits 9

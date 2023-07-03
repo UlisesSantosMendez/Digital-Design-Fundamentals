@@ -1,0 +1,9 @@
+ENTITY completo IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	cin : in std_logic  ; 
+	suma : inout std_logic  ; 
+	cout : inout std_logic 
+    ) ;
+END completo ;

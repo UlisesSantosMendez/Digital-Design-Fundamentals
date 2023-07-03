@@ -1,0 +1,23 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: ochobitsreg.pin
+
+This file was created on 06/08/2020 at 19:54:51 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+d(7) in <> Enabled Normal 2 <> [Auto] 
+d(6) in <> Enabled Normal 3 <> [Auto] 
+d(5) in <> Enabled Normal 4 <> [Auto] 
+d(4) in <> Enabled Normal 5 <> [Auto] 
+d(3) in <> Enabled Normal 6 <> [Auto] 
+d(2) in <> Enabled Normal 7 <> [Auto] 
+d(1) in <> Enabled Normal 8 <> [Auto] 
+d(0) in <> Enabled Normal 9 <> [Auto] 
+q(7) out <> Enabled Normal 14 <> [Auto] 
+q(5) out <> Enabled Normal 15 <> [Auto] 
+q(3) out <> Enabled Normal 16 <> [Auto] 
+q(1) out <> Enabled Normal 17 <> [Auto] 
+q(0) out <> Enabled Normal 20 <> [Auto] 
+q(2) out <> Enabled Normal 21 <> [Auto] 
+q(4) out <> Enabled Normal 22 <> [Auto] 
+q(6) out <> Enabled Normal 23 <> [Auto] 

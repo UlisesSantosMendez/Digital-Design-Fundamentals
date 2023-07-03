@@ -1,0 +1,2 @@
+primos4bits.vhd #Entity numeros 3
+primos4bits.vhd #Architecture primos numeros 8
