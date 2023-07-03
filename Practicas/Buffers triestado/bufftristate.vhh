@@ -1,7 +1,0 @@
-ENTITY triestado IS
-    PORT (
-	enable : in std_logic  ; 
-	entrada : in std_logic  ; 
-	salida : inout std_logic 
-    ) ;
-END triestado ;
