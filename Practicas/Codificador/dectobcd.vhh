@@ -1,0 +1,6 @@
+ENTITY codificador IS
+    PORT (
+	a_IBV : in std_logic_vector (3 downto 0) ; 
+	d : inout std_logic_vector (3 downto 0)
+    ) ;
+END codificador ;

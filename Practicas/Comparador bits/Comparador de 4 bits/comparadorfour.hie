@@ -1,0 +1,2 @@
+comparafbits.vhd #Entity comparador 3
+comparafbits.vhd #Architecture a_compf comparador 8

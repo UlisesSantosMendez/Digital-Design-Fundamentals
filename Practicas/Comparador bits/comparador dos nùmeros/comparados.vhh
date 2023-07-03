@@ -1,0 +1,7 @@
+ENTITY compara IS
+    PORT (
+	a : in std_logic_vector (1 downto 0) ; 
+	b : in std_logic_vector (1 downto 0) ; 
+	z : inout std_logic_vector (1 downto 0)
+    ) ;
+END compara ;

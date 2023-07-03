@@ -1,0 +1,7 @@
+ENTITY com_and IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	f : inout std_logic 
+    ) ;
+END com_and ;

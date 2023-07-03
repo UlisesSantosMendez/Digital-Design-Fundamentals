@@ -1,0 +1,6 @@
+MESSAGE "File: E:\Programas de VHDL\compuerta AND\vhd\AND.vhd" 
+MESSAGE "Compile Entity "com_and"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "com_and"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   com_and" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

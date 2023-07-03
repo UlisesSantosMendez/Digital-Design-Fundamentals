@@ -1,0 +1,2 @@
+AND.vhd #Entity com_and 3
+AND.vhd #Architecture compuerta com_and 8

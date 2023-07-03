@@ -1,0 +1,2 @@
+comparator.vhd #Entity comp 3
+comparator.vhd #Architecture f_datos comp 8
