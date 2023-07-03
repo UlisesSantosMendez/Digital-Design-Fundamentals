@@ -1,0 +1,28 @@
+Cypress Package: cy7c372i-125jc  PinOut File: sumofsixteen.pin
+
+This file was created on 06/22/2020 at 19:07:42 
+by C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+==========
+sum2(4) out <> Disabled Normal 2 <> [Auto] 
+sum2(0) out <> Disabled Normal 5 <> [Auto] 
+sum2(3) out <> Disabled Normal 6 <> [Auto] 
+rc(0) in <> Disabled Normal 10 <> [Auto] 
+rd(3) in <> Disabled Normal 13 <> [Auto] 
+rc(3) in <> Disabled Normal 14 <> [Auto] 
+rc(2) in <> Disabled Normal 15 <> [Auto] 
+rc(1) in <> Disabled Normal 16 <> [Auto] 
+cout(3) out <> Disabled Normal 24 <> [Auto] 
+sum2(1) out <> Disabled Normal 27 <> [Auto] 
+sum2(2) out <> Disabled Normal 28 <> [Auto] 
+cout(0) out <> Disabled Normal 31 <> [Auto] 
+rd(2) in <> Disabled Normal 32 <> [Auto] 
+rd(1) in <> Disabled Normal 33 <> [Auto] 
+rd(0) in <> Disabled Normal 35 <> [Auto] 
+sum2(5) out <> Disabled Normal 36 <> [Auto] 
+cout(2) out <> Disabled Normal 37 <> [Auto] 
+cout(4) out <> Disabled Normal 38 <> [Auto] 
+cout(5) out <> Disabled Normal 39 <> [Auto] 
+cout(6) out <> Disabled Normal 40 <> [Auto] 
+sum2(6) out <> Disabled Normal 41 <> [Auto] 
+cout(1) out <> Disabled Normal 42 <> [Auto] 

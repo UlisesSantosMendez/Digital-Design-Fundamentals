@@ -1,0 +1,1135 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  sumofsixteen.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fO -fP -v10 -dc372i -pcy7c372i-125jc -b sumofsixteen.vhd -u Sumador2.hie -uch00
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Mon Jun 22 19:07:40 2020
+
+Library 'work' => directory 'lc372i'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Mon Jun 22 19:07:40 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+sumofsixteen.vhd (line 20, col 6):  Warning: (W460) 'sum2(7)' unassigned in arch. 'arq_sumdos' of sumador2.
+
+tovif:  No errors.  1 warning.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Mon Jun 22 19:07:40 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 9 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 26 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (19:07:42)
+
+Input File(s): sumofsixteen.pla
+Device       : c372i
+Package      : cy7c372i-125jc
+ReportFile   : sumofsixteen.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND UserCode 00000000 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP DT-OPT ALL
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (19:07:42)
+
+Messages:
+  Information: Optimizing logic using best output polarity for signals:
+         cout(1) cout(2) cout(3) cout(4) cout(5) cout(6) sum2(1) sum2(2)
+         sum2(3) sum2(4) sum2(5) sum2(6)
+
+  Information: Selected logic optimization OFF for signals:
+         cout(0) sum2(0)
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (19:07:42)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Sum-Splitting output logic for signal sum2(4).
+  Information: Sum-Splitting output logic for signal sum2(3).
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Optimizing logic without changing polarity for signals:
+         cout(1) cout(2) cout(3) cout(4) cout(5) cout(6) sum2(1) sum2(2)
+         sum2(5) sum2(6)
+
+  Information: Optimizing logic using best output polarity for signals:
+         S_1 S_2 S_3 S_4
+
+  Information: Selected logic optimization OFF for signals:
+         cout(0) sum2(0) sum2(3) sum2(4)
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (19:07:42)
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (19:07:42)
+</CYPRESSTAG>
+
+    S_1 =
+          rc(1) * rc(2) * rc(3) * rd(0) * /rd(1) * rd(2) * rd(3) 
+        + /rc(1) * /rc(2) * rd(0) * rd(1) * rd(2) * rd(3) 
+        + /rc(1) * rc(2) * /rc(3) * rd(0) * /rd(2) * rd(3) 
+        + rc(2) * rc(3) * rd(0) * rd(1) * rd(2) * /rd(3) 
+        + rc(1) * rc(3) * rd(0) * rd(1) * rd(2) * /rd(3) 
+        + rc(1) * rc(2) * /rc(3) * rd(0) * /rd(1) * /rd(3) 
+        + /rc(1) * /rc(2) * /rc(3) * rd(1) * /rd(2) * /rd(3) 
+        + rc(1) * /rc(3) * rd(0) * rd(1) * rd(3) 
+        + rc(3) * /rd(0) * rd(1) * rd(2) * rd(3) 
+        + rc(3) * rd(0) * rd(1) * /rd(2) * rd(3) 
+        + rc(2) * rc(3) * /rd(0) * /rd(2) * rd(3) 
+        + /rc(2) * /rc(3) * /rd(0) * rd(1) * /rd(3) 
+        + /rc(1) * rd(0) * /rd(1) * rd(2) * /rd(3) 
+        + rc(3) * /rd(0) * /rd(1) * rd(2) * /rd(3) 
+        + /rc(2) * /rd(0) * rd(1) * /rd(2) * /rd(3) 
+        + /rc(3) * /rd(0) * rd(1) * /rd(2) * /rd(3) 
+
+    S_2 =
+          rc(2) * /rc(3) * rd(1) * rd(2) * rd(3) 
+        + /rc(2) * /rc(3) * /rd(1) * /rd(2) * rd(3) 
+        + /rc(2) * rd(0) * /rd(1) * rd(2) * /rd(3) 
+        + rc(3) * rd(0) * /rd(1) * /rd(2) * /rd(3) 
+        + /rc(3) * /rd(0) * /rd(1) * rd(3) 
+        + /rd(0) * /rd(1) * /rd(2) * rd(3) 
+
+    S_3 =
+          /rc(1) * /rc(2) * rc(3) * rd(0) * rd(2) 
+        + rc(2) * /rc(3) * rd(0) * rd(1) * rd(2) 
+        + rc(1) * /rc(3) * rd(0) * rd(1) * rd(2) 
+        + rc(2) * rc(3) * /rd(0) * rd(1) * rd(2) 
+        + /rc(1) * rc(3) * rd(0) * /rd(1) * rd(2) 
+        + /rc(2) * rc(3) * rd(0) * /rd(1) * rd(2) 
+        + rc(1) * rc(2) * /rc(3) * /rd(1) * rd(2) 
+        + rc(2) * rc(3) * rd(0) * rd(1) * /rd(2) 
+        + rc(1) * rc(3) * rd(0) * rd(1) * /rd(2) 
+        + /rc(1) * /rc(2) * /rc(3) * rd(0) * /rd(2) 
+        + rc(2) * /rc(3) * /rd(0) * rd(1) * /rd(2) 
+        + rc(1) * rc(2) * rc(3) * /rd(1) * /rd(2) 
+        + /rc(1) * /rc(3) * rd(0) * /rd(1) * /rd(2) 
+        + /rc(2) * /rc(3) * rd(0) * /rd(1) * /rd(2) 
+        + /rc(3) * /rd(0) * /rd(1) * rd(2) 
+        + rc(3) * /rd(0) * /rd(1) * /rd(2) 
+
+    S_4 =
+          /rc(2) * /rc(3) * /rd(0) * rd(2) 
+        + /rc(2) * rc(3) * /rd(0) * /rd(2) 
+
+    cout(0) =
+          rc(1) * rd(0) 
+
+    cout(1) =
+          rc(1) * rd(0) * rd(1) 
+        + rc(1) * rc(2) * rd(0) 
+        + rc(2) * rd(1) 
+
+    cout(2) =
+          rc(1) * rd(0) * rd(1) 
+        + rc(1) * rc(2) * rd(0) 
+        + rc(2) * rd(0) * rd(1) 
+        + rc(2) * rc(3) * rd(1) 
+        + rc(3) * rd(0) 
+
+    cout(3) =
+          rc(2) * rc(3) * rd(0) * rd(1) * rd(2) 
+        + rc(1) * rc(3) * rd(0) * rd(1) * rd(2) 
+        + /rc(1) * /rc(2) * /rc(3) * rd(0) * rd(2) 
+        + rc(2) * /rc(3) * /rd(0) * rd(1) * rd(2) 
+        + rc(1) * rc(2) * rc(3) * /rd(1) * rd(2) 
+        + /rc(1) * /rc(3) * rd(0) * /rd(1) * rd(2) 
+        + /rc(2) * /rc(3) * rd(0) * /rd(1) * rd(2) 
+        + /rc(2) * rc(3) * /rd(0) * rd(2) 
+        + rc(3) * /rd(0) * /rd(1) * rd(2) 
+
+    cout(4) =
+          rc(1) * rc(2) * rc(3) * rd(0) * rd(2) 
+        + rd(0) * rd(1) * rd(2) 
+        + rc(3) * rd(1) * rd(2) 
+        + rc(3) * rd(0) * rd(1) 
+        + rc(2) * rd(1) * rd(2) 
+        + rc(2) * rd(0) * rd(1) 
+        + rc(2) * rc(3) * rd(1) 
+        + rc(1) * rd(0) * rd(1) 
+
+    cout(5) =
+          rc(2) * rc(3) * rd(0) * rd(1) * rd(2) * rd(3) 
+        + rc(1) * rc(3) * rd(0) * rd(1) * rd(2) * rd(3) 
+        + rc(1) * rc(2) * /rc(3) * rd(0) * /rd(1) * rd(3) 
+        + /rc(1) * /rc(2) * /rc(3) * rd(1) * /rd(2) * rd(3) 
+        + /rc(2) * /rc(3) * /rd(0) * rd(1) * rd(3) 
+        + /rc(1) * rd(0) * /rd(1) * rd(2) * rd(3) 
+        + /rc(2) * rd(0) * /rd(1) * rd(2) * rd(3) 
+        + rc(3) * /rd(0) * /rd(1) * rd(2) * rd(3) 
+        + /rc(2) * /rd(0) * rd(1) * /rd(2) * rd(3) 
+        + /rc(3) * /rd(0) * rd(1) * /rd(2) * rd(3) 
+        + rc(3) * rd(0) * /rd(1) * /rd(2) * rd(3) 
+
+    cout(6) =
+          rc(1) * rc(2) * rc(3) * rd(0) * rd(2) 
+        + rd(1) * rd(2) * rd(3) 
+        + rd(0) * rd(2) * rd(3) 
+        + rd(0) * rd(1) * rd(2) 
+        + rc(3) * rd(2) * rd(3) 
+        + rc(3) * rd(1) * rd(2) 
+        + rc(2) * rd(1) * rd(2) 
+
+    sum2(0) =
+          rc(0) 
+
+    sum2(1) =
+          /rc(1) * rd(0) 
+        + rc(1) * /rd(0) 
+
+    sum2(2) =
+          rc(1) * rc(2) * rd(0) * rd(1) 
+        + rc(1) * /rc(2) * rd(0) * /rd(1) 
+        + /rc(1) * /rc(2) * rd(1) 
+        + /rc(2) * /rd(0) * rd(1) 
+        + /rc(1) * rc(2) * /rd(1) 
+        + rc(2) * /rd(0) * /rd(1) 
+
+    /sum2(3) =
+          /S_3.CMB * /S_4.CMB 
+
+    /sum2(4) =
+          /S_1.CMB * /S_2.CMB 
+
+    /sum2(5) =
+          rc(1) * rc(2) * rc(3) * rd(0) * /rd(1) * /rd(3) 
+        + /rc(1) * /rc(2) * rd(0) * rd(2) * rd(3) 
+        + rc(2) * /rc(3) * /rd(0) * rd(1) * /rd(3) 
+        + /rc(1) * /rc(2) * /rc(3) * /rd(2) * /rd(3) 
+        + /rc(3) * rd(1) * rd(2) * rd(3) 
+        + rc(3) * /rd(0) * rd(1) * rd(2) 
+        + rd(0) * /rd(1) * rd(2) * rd(3) 
+        + rc(3) * /rd(1) * rd(2) * rd(3) 
+        + /rc(1) * /rc(3) * /rd(1) * /rd(2) 
+        + /rc(2) * /rc(3) * /rd(1) * /rd(2) 
+        + rd(0) * rd(1) * rd(2) * /rd(3) 
+        + /rc(2) * /rd(0) * /rd(2) * /rd(3) 
+        + /rd(0) * /rd(1) * /rd(2) 
+        + /rd(1) * /rd(2) * /rd(3) 
+
+    sum2(6) =
+          rc(1) * rc(2) * rc(3) * rd(0) * rd(2) * /rd(3) 
+        + /rc(3) * /rd(0) * /rd(1) * rd(3) 
+        + rd(0) * rd(1) * rd(2) * /rd(3) 
+        + rc(3) * rd(1) * rd(2) * /rd(3) 
+        + rc(2) * rd(1) * rd(2) * /rd(3) 
+        + /rd(2) * rd(3) 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (19:07:42)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+PARTITION LOGIC            (19:07:42)
+
+Messages:
+  Information: Checking design is strictly SYNCHRONOUS.
+  Information: Initializing Logic Block structures.
+  Information: Checking for duplicate NODE logic.
+  Information: Forming input seeds.
+  Information: Forming input seeds.
+  Information: Assigning fixed logic to Logic Blocks.
+  Information: Processing banked global preset, reset and output enable.
+  Information: Separating output logic set to GND/VCC.
+  Information: Validating Logic Block's with pre-placed signals.
+  Information: Separating input register logic.
+  Information: Assigning initializing equations to empty Logic Blocks.
+  Information: Separating output combinatorial logic.
+  Information: Separating disjoint output logic.
+  Information: Separating output node logic.
+  Information: Compacting Logic Block interconnect.
+  .+.+.......
+  Information: Separating disjoint output logic.
+  Information: Separating output node logic.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating outputs to Logic Blocks.
+  Information: Assigning floating inputs to Logic Blocks.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Fitting" icon=FILE_RPT_PLACEMENT>
+DESIGN SIGNAL PLACEMENT    (19:07:42)
+</CYPRESSTAG>
+Messages:
+  Information: Fitting signals to Logic Block A.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Fitting signals to Logic Block B.
+  Information: Fitting signals to Logic Block C.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Fitting signals to Logic Block D.
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ..........+...+...................
+  Information: Assigning Product Terms to Allocator
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Assigning Signals to Macrocells.
+  Information: Improving Macrocell Assignment
+  ................
+  Information: Assigning Product Terms to Allocator
+  Information: Routing signals to Logic Blocks.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK A PLACEMENT   (19:07:42)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |sum2(4)
+++X+++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |UNUSED
+..........++++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |UNUSED
+..................++++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |sum2(0)
+..........................X+++++++++++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |sum2(3)
+..................................X+++++++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |UNUSED
+..........................................++++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |UNUSED
+..................................................++++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  3 
+Total count of unique Product Terms  =  3 
+Total Product Terms to be assigned   =  3 
+Max Product Terms used / available   =   3 /  80   = 3.76 %
+
+
+Control Signals for Logic Block A
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block A
+                 ____________________________________________
+                 |   |= >rc(0)                          |   |                 
+                 |   |> not used:46                     |   |                 
+                 |   |= >S_2.CMB                        |   |                 
+                 |   |> not used:48                     |   |                 
+                 |   |= >S_3.CMB                        |  2|= sum2(4)        
+                 |   |> not used:50                     |   |                 
+                 |   |> not used:51       not used:202 *|   |                 
+                 |   |> not used:52                     |   |                 
+                 |   |> not used:53                     |  3|* not used       
+                 |   |> not used:54                     |   |                 
+                 |   |= >S_1.CMB          not used:204 *|   |                 
+                 |   |> not used:56                     |   |                 
+                 |   |> not used:57                     |  4|* not used       
+                 |   |> not used:58                     |   |                 
+                 |   |> not used:59       not used:206 *|   |                 
+                 |   |> not used:60                     |   |                 
+                 |   |> not used:61                     |  5|= sum2(0)        
+                 |   |> not used:62                     |   |                 
+                 |   |> not used:63       not used:208 *|   |                 
+                 |   |> not used:64                     |   |                 
+                 |   |> not used:65                     |  6|= sum2(3)        
+                 |   |> not used:66                     |   |                 
+                 |   |> not used:67       not used:210 *|   |                 
+                 |   |> not used:68                     |   |                 
+                 |   |= >S_4.CMB                        |  7|* not used       
+                 |   |> not used:70                     |   |                 
+                 |   |> not used:71       not used:212 *|   |                 
+                 |   |> not used:72                     |   |                 
+                 |   |> not used:73                     |  8|* not used       
+                 |   |> not used:74                     |   |                 
+                 |   |> not used:75       not used:214 *|   |                 
+                 |   |> not used:76                     |   |                 
+                 |   |> not used:77                     |  9|* not used       
+                 |   |> not used:78                     |   |                 
+                 |   |> not used:79       not used:216 *|   |                 
+                 |   |> not used:80                     |   |                 
+                 |   |> not used:81                     |   |                 
+                 |   |> not used:82                     |   |                 
+                 |   |> not used:83                     |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    3  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |    5  |   36  |
+                 ______________________________________
+                                           8  /   52   = 15  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK B PLACEMENT   (19:07:42)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |[i/p]
+++++++++++++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |[i/p]
+..........++++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |[i/p]
+..................++++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |UNUSED
+..........................++++++++++++++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |UNUSED
+..................................++++++++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |UNUSED
+..........................................++++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |UNUSED
+..................................................++++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |UNUSED
+................................................................++++++++++++++++
+________________________________________________________________________________
+
+Total count of outputs placed        =  0 
+Total count of unique Product Terms  =  0 
+Total Product Terms to be assigned   =  0 
+Max Product Terms used / available   =   0 /  80   = 0.0  %
+
+
+Control Signals for Logic Block B
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block B
+                 ____________________________________________
+                 |   |> not used:84                     |   |                 
+                 |   |> not used:85                     |   |                 
+                 |   |> not used:86                     |   |                 
+                 |   |> not used:87                     |   |                 
+                 |   |> not used:88                     | 14|= rc(3)          
+                 |   |> not used:89                     |   |                 
+                 |   |> not used:90       not used:218 *|   |                 
+                 |   |> not used:91                     |   |                 
+                 |   |> not used:92                     | 15|= rc(2)          
+                 |   |> not used:93                     |   |                 
+                 |   |> not used:94       not used:220 *|   |                 
+                 |   |> not used:95                     |   |                 
+                 |   |> not used:96                     | 16|= rc(1)          
+                 |   |> not used:97                     |   |                 
+                 |   |> not used:98       not used:222 *|   |                 
+                 |   |> not used:99                     |   |                 
+                 |   |> not used:100                    | 17|* not used       
+                 |   |> not used:101                    |   |                 
+                 |   |> not used:102      not used:224 *|   |                 
+                 |   |> not used:103                    |   |                 
+                 |   |> not used:104                    | 18|* not used       
+                 |   |> not used:105                    |   |                 
+                 |   |> not used:106      not used:226 *|   |                 
+                 |   |> not used:107                    |   |                 
+                 |   |> not used:108                    | 19|* not used       
+                 |   |> not used:109                    |   |                 
+                 |   |> not used:110      not used:228 *|   |                 
+                 |   |> not used:111                    |   |                 
+                 |   |> not used:112                    | 20|* not used       
+                 |   |> not used:113                    |   |                 
+                 |   |> not used:114      not used:230 *|   |                 
+                 |   |> not used:115                    |   |                 
+                 |   |> not used:116                    | 21|* not used       
+                 |   |> not used:117                    |   |                 
+                 |   |> not used:118      not used:232 *|   |                 
+                 |   |> not used:119                    |   |                 
+                 |   |> not used:120                    |   |                 
+                 |   |> not used:121                    |   |                 
+                 |   |> not used:122                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    3  |    8  |
+                 | Buried Macrocells  |    0  |    8  |
+                 | PIM Input Connects |    0  |   36  |
+                 ______________________________________
+                                           3  /   52   = 5   %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK C PLACEMENT   (19:07:42)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |cout(3)
+XXXXXXX+XX++++++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |UNUSED
+..........++++++++++++++++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |UNUSED
+..................++++++++++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |sum2(1)
+..........................XX++++++++++++++......................................
+| 7 |(S_4)
+..............................XX++++++++++++++..................................
+| 8 |sum2(2)
+..................................XXXXXX++++++++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |UNUSED
+..........................................++++++++++++++++......................
+|11 |UNUSED
+..............................................++++++++++++++++..................
+|12 |UNUSED
+..................................................++++++++++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |cout(0)
+..........................................................X+++++++++++++++......
+|15 |(S_3)
+................................................................XXXXXXXXXXXXXXXX
+________________________________________________________________________________
+
+Total count of outputs placed        =  6 
+Total count of unique Product Terms  =  36 
+Total Product Terms to be assigned   =  36 
+Max Product Terms used / available   =  36 /  80   = 45.1  %
+
+
+Control Signals for Logic Block C
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block C
+                 ____________________________________________
+                 |   |> not used:123                    |   |                 
+                 |   |= >rd(0)                          |   |                 
+                 |   |= >rd(1)                          |   |                 
+                 |   |= >rc(3)                          |   |                 
+                 |   |> not used:127                    | 24|= cout(3)        
+                 |   |> not used:128                    |   |                 
+                 |   |> not used:129      not used:234 *|   |                 
+                 |   |> not used:130                    |   |                 
+                 |   |= >rc(2)                          | 25|* not used       
+                 |   |> not used:132                    |   |                 
+                 |   |> not used:133      not used:236 *|   |                 
+                 |   |> not used:134                    |   |                 
+                 |   |= >rc(1)                          | 26|* not used       
+                 |   |> not used:136                    |   |                 
+                 |   |> not used:137      not used:238 *|   |                 
+                 |   |> not used:138                    |   |                 
+                 |   |> not used:139                    | 27|= sum2(1)        
+                 |   |> not used:140                    |   |                 
+                 |   |> not used:141             (S_4) =|   |                 
+                 |   |> not used:142                    |   |                 
+                 |   |> not used:143                    | 28|= sum2(2)        
+                 |   |> not used:144                    |   |                 
+                 |   |= >rd(2)            not used:242 *|   |                 
+                 |   |> not used:146                    |   |                 
+                 |   |> not used:147                    | 29|* not used       
+                 |   |> not used:148                    |   |                 
+                 |   |> not used:149      not used:244 *|   |                 
+                 |   |> not used:150                    |   |                 
+                 |   |> not used:151                    | 30|* not used       
+                 |   |> not used:152                    |   |                 
+                 |   |> not used:153      not used:246 *|   |                 
+                 |   |> not used:154                    |   |                 
+                 |   |> not used:155                    | 31|= cout(0)        
+                 |   |> not used:156                    |   |                 
+                 |   |> not used:157             (S_3) =|   |                 
+                 |   |> not used:158                    |   |                 
+                 |   |> not used:159                    |   |                 
+                 |   |> not used:160                    |   |                 
+                 |   |> not used:161                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    4  |    8  |
+                 | Buried Macrocells  |    2  |    8  |
+                 | PIM Input Connects |    6  |   36  |
+                 ______________________________________
+                                          12  /   52   = 23  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+LOGIC BLOCK D PLACEMENT   (19:07:42)
+
+Messages:
+
+
+________________________________________________________________________________
+          1111111111222222222233333333334444444444555555555566666666667777777777
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+________________________________________________________________________________
+| 0 |sum2(5)
+XXXXXXXXXXXXXX++................................................................
+| 1 |UNUSED
+......++++++++++++++++..........................................................
+| 2 |cout(2)
+..........++++XX+++X++XX++......................................................
+| 3 |UNUSED
+..............++++++++++++++++..................................................
+| 4 |cout(4)
+..................XXXXXXXX++++++++..............................................
+| 5 |UNUSED
+......................++++++++++++++++..........................................
+| 6 |cout(5)
+..........................XXXXXXXXX+XX++++......................................
+| 7 |UNUSED
+..............................++++++++++++++++..................................
+| 8 |cout(6)
+..................................+X++XXXX++XX++++..............................
+| 9 |UNUSED
+......................................++++++++++++++++..........................
+|10 |sum2(6)
+..........................................XX++XXXX++++++++......................
+|11 |(S_2)
+..............................................X+++XXXX+X++++++..................
+|12 |cout(1)
+..................................................++++X+XX++++++++..............
+|13 |UNUSED
+......................................................++++++++++++++++..........
+|14 |UNUSED
+..........................................................++++++++++++++++......
+|15 |(S_1)
+................................................................XXXXXXXXXXXXXXXX
+________________________________________________________________________________
+
+Total count of outputs placed        =  9 
+Total count of unique Product Terms  =  65 
+Total Product Terms to be assigned   =  76 
+Max Product Terms used / available   =  72 /  80   = 90.1  %
+
+
+Control Signals for Logic Block D
+---------------------------------
+CLK pin 13 : <not used>
+CLK pin 35 : <not used>
+PRESET      : <not used>
+RESET       : <not used>
+OE 0        : <not used>
+OE 1        : <not used>
+OE 2        : <not used>
+OE 3        : <not used>
+
+
+
+                              Logic Block D
+                 ____________________________________________
+                 |   |= >rc(2)                          |   |                 
+                 |   |> not used:163                    |   |                 
+                 |   |= >rd(3)                          |   |                 
+                 |   |> not used:165                    |   |                 
+                 |   |= >rc(1)                          | 36|= sum2(5)        
+                 |   |> not used:167                    |   |                 
+                 |   |> not used:168      not used:250 *|   |                 
+                 |   |> not used:169                    |   |                 
+                 |   |> not used:170                    | 37|= cout(2)        
+                 |   |= >rc(3)                          |   |                 
+                 |   |> not used:172      not used:252 *|   |                 
+                 |   |= >rd(0)                          |   |                 
+                 |   |= >rd(1)                          | 38|= cout(4)        
+                 |   |= >rd(2)                          |   |                 
+                 |   |> not used:176      not used:254 *|   |                 
+                 |   |> not used:177                    |   |                 
+                 |   |> not used:178                    | 39|= cout(5)        
+                 |   |> not used:179                    |   |                 
+                 |   |> not used:180      not used:256 *|   |                 
+                 |   |> not used:181                    |   |                 
+                 |   |> not used:182                    | 40|= cout(6)        
+                 |   |> not used:183                    |   |                 
+                 |   |> not used:184      not used:258 *|   |                 
+                 |   |> not used:185                    |   |                 
+                 |   |> not used:186                    | 41|= sum2(6)        
+                 |   |> not used:187                    |   |                 
+                 |   |> not used:188             (S_2) =|   |                 
+                 |   |> not used:189                    |   |                 
+                 |   |> not used:190                    | 42|= cout(1)        
+                 |   |> not used:191                    |   |                 
+                 |   |> not used:192      not used:262 *|   |                 
+                 |   |> not used:193                    |   |                 
+                 |   |> not used:194                    | 43|* not used       
+                 |   |> not used:195                    |   |                 
+                 |   |> not used:196             (S_1) =|   |                 
+                 |   |> not used:197                    |   |                 
+                 |   |> not used:198                    |   |                 
+                 |   |> not used:199                    |   |                 
+                 |   |> not used:200                    |   |                 
+                 ____________________________________________
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | I/O Macrocells     |    7  |    8  |
+                 | Buried Macrocells  |    2  |    8  |
+                 | PIM Input Connects |    7  |   36  |
+                 ______________________________________
+                                          16  /   52   = 30  %
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (19:07:42)
+</CYPRESSTAG>
+
+Device:  c372i
+Package: cy7c372i-125jc
+
+                     1  :  GND
+                     2  :  sum2(4)
+                     3  :  Not Used
+                     4  :  Not Used
+                     5  :  sum2(0)
+                     6  :  sum2(3)
+                     7  :  Not Used
+                     8  :  Not Used
+                     9  :  Not Used
+                    10  :  rc(0)
+                    11  :  VPP
+                    12  :  GND
+                    13  :  rd(3)
+                    14  :  rc(3)
+                    15  :  rc(2)
+                    16  :  rc(1)
+                    17  :  Not Used
+                    18  :  Not Used
+                    19  :  Not Used
+                    20  :  Not Used
+                    21  :  Not Used
+                    22  :  VCC
+                    23  :  GND
+                    24  :  cout(3)
+                    25  :  Not Used
+                    26  :  Not Used
+                    27  :  sum2(1)
+                    28  :  sum2(2)
+                    29  :  Not Used
+                    30  :  Not Used
+                    31  :  cout(0)
+                    32  :  rd(2)
+                    33  :  rd(1)
+                    34  :  GND
+                    35  :  rd(0)
+                    36  :  sum2(5)
+                    37  :  cout(2)
+                    38  :  cout(4)
+                    39  :  cout(5)
+                    40  :  cout(6)
+                    41  :  sum2(6)
+                    42  :  cout(1)
+                    43  :  Not Used
+                    44  :  VCC
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (19:07:42)
+</CYPRESSTAG>
+
+
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    3  |    3  |
+                 | Clock/Inputs       |    2  |    2  |
+                 | I/O Macrocells     |   17  |   32  |
+                 | Buried Macrocells  |    4  |   32  |
+                 | PIM Input Connects |   18  |  156  |
+                 ______________________________________
+                                          44  /  225   = 19  %
+
+
+
+                                      Required     Max (Available)
+          CLOCK/LATCH ENABLE signals     0            2
+          Input REG/LATCH signals        0           37
+          Input PIN signals              5            5
+          Input PINs using I/O cells     3            3
+          Output PIN signals            14           29
+
+
+          Total PIN signals             22           37
+          Macrocells Used               18           64
+          Unique Product Terms         104          320
+
+
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+PRESET/RESET AND OUTPUT ENABLE COMBINATIONS
+
+PRESET: NONE-COMBINATORIAL
+RESET : NONE-COMBINATORIAL
+Total unique inputs =  12 
+count of combinatorial equations =  18 
+==>OE: GND or VCC
+   count of OE equations =  18 
+
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Timing" icon=FILE_RPT_TIMING>
+TIMING PATH ANALYSIS       (19:07:42) using Package: cy7c372i-125jc
+</CYPRESSTAG>
+Messages:
+
+----------------------------------------------------------------------------
+Signal Name | Delay Type  |   tmax   | Path Description
+----------------------------------------------------------------------------
+cmb::sum2(4)[2]
+inp::rc(1)
+---->S_1
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::sum2(0)[5]
+inp::rc(0)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::sum2(3)[6]
+inp::rc(1)
+---->S_3
+              tPD             16.0 ns    2 passes
+----------------------------------------------------------------------------
+cmb::cout(3)[24]
+inp::rc(2)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::sum2(1)[27]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::sum2(2)[28]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::cout(0)[31]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::sum2(5)[36]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::cout(2)[37]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::cout(4)[38]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::cout(5)[39]
+inp::rc(2)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::cout(6)[40]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::sum2(6)[41]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+cmb::cout(1)[42]
+inp::rc(1)
+              tPD             10.0 ns    1 pass
+----------------------------------------------------------------------------
+
+Worst Case Path Summary
+-----------------------
+
+                    tPD = 16.0 ns for sum2(4) 
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        C37XFIT.EXE    22/DEC/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (19:07:42)
+
+Messages:
+  Information: Processing JEDEC for Logic Block 1.
+  Information: Processing JEDEC for Logic Block 2.
+  Information: Processing JEDEC for Logic Block 3.
+  Information: Processing JEDEC for Logic Block 4.
+  Information: JEDEC output file 'sumofsixteen.pin' created.
+  Information: JEDEC output file 'sumofsixteen.jed' created.
+
+  Usercode:    00000000
+  Checksum:    EF30
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 19:07:42

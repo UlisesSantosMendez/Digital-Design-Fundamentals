@@ -1,0 +1,48 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  final.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fO -fP -v10 -dc372i -pcy7c372i-125jc -b final.vhd -u toplevel.hie -uch00
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Mon Jun 22 22:56:00 2020
+
+Library 'work' => directory 'lc372i'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Library 'embass' => directory 'E:\Programas de VHDL\PROYECTO FDD\Libreria'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_mth.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\stdlogic\mod_gen.vif'.
+Using 'E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd'.
+E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd (line 3, col 32):  (E19) Not a TYPE or SUBTYPE name:  std_logic_vector
+Error occurred within '(' at line 3, column 6 in E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd.
+E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd (line 3, col 34):  (E56) Expected ), but got (
+Error occurred within '(' at line 3, column 34 in E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd.
+E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd (line 3, col 34):  (E0) syntax error
+E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd (line 26, col 3):  (E56) Expected FUNCTION, but got NEW IDENTIFIER
+Error occurred within 'ARCHITECTURE' at line 25, column 35 in E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd.
+E:\Programas de VHDL\PROYECTO FDD\Libreria\packagecomps.vhd (line 26, col 3):  (E8) Syntax error:  Can't use 'u1' (a NEW IDENTIFIER) here.
+final.vhd (line 12, col 25):  (E375) 'embasador' is not in 'embass'
+final.vhd (line 12, col 26):  (E0) syntax error
+
+vhdlfe:  7 errors.
+Output file not produced.
+

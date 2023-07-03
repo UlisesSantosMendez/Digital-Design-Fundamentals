@@ -1,0 +1,8 @@
+ENTITY sumador2 IS
+    PORT (
+	cout : inout std_logic_vector (0 to 7) ; 
+	rc : in std_logic_vector (3 downto 0) ; 
+	rd : in std_logic_vector (3 downto 0) ; 
+	sum2 : inout std_logic_vector (0 to 7)
+    ) ;
+END sumador2 ;

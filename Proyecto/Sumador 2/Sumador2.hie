@@ -1,0 +1,2 @@
+sumofsixteen.vhd #Entity sumador2 12
+sumofsixteen.vhd #Architecture arq_sumdos sumador2 18
