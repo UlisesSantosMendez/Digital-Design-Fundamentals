@@ -1,0 +1,2 @@
+muxbooleano.vhd #Entity mux 3
+muxbooleano.vhd #Architecture muxbool mux 9

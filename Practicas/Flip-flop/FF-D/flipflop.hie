@@ -1,0 +1,2 @@
+ffD.vhd #Entity d 3
+ffD.vhd #Architecture flipflop d 8

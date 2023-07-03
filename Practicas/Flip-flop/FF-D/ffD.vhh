@@ -1,0 +1,7 @@
+ENTITY d IS
+    PORT (
+	d : in std_logic  ; 
+	clk : in std_logic  ; 
+	q : inout std_logic 
+    ) ;
+END d ;

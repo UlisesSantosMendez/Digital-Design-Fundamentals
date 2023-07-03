@@ -1,0 +1,2 @@
+muxdualdpc.vhd #Entity mux 3
+muxdualdpc.vhd #Architecture mux2x4 mux 9

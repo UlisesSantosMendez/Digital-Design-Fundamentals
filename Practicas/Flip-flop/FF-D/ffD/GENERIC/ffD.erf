@@ -1,0 +1,5 @@
+MESSAGE "File: E:\Programas de VHDL\Flip-flop\FF-D\ffD.vhd" 
+MESSAGE "Compile Entity "D"" 
+MESSAGE "Entity "D" has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "flipflop" of Entity "D"" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]" 

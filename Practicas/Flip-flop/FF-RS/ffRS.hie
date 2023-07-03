@@ -1,0 +1,2 @@
+RS.vhd #Entity rs 3
+RS.vhd #Architecture flipflop rs 8
