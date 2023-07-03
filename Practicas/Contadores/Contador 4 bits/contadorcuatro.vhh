@@ -1,0 +1,6 @@
+ENTITY cuatrobits IS
+    PORT (
+	clk : in std_logic  ; 
+	q : inout std_logic_vector (3 downto 0)
+    ) ;
+END cuatrobits ;

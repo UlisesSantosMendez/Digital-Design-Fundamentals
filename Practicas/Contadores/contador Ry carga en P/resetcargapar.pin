@@ -1,0 +1,14 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: resetcargapar.pin
+
+This file was created on 06/08/2020 at 22:56:08 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+reset in <> Enabled Normal 2 <> [Auto] 
+load in <> Enabled Normal 3 <> [Auto] 
+enp in <> Enabled Normal 4 <> [Auto] 
+q(3) inout <> Enabled Normal 14 <> [Auto] 
+q(1) inout <> Enabled Normal 15 <> [Auto] 
+q(0) inout <> Enabled Normal 22 <> [Auto] 
+q(2) inout <> Enabled Normal 23 <> [Auto] 

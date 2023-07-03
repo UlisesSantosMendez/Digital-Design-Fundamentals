@@ -1,0 +1,2 @@
+orlogic.vhd #Entity c_or 3
+orlogic.vhd #Architecture funcional c_or 8

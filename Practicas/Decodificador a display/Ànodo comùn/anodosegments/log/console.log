@@ -1,0 +1,27 @@
+Design: 15:22, lunes, 08 de junio de 2020
+Design: Opening design "E:\Programas de VHDL\Decodificador a display\Ànodo comùn\anodosegments\anodosegments.adf"
+Compilation with file reorder...
+File: E:\Programas de VHDL\Decodificador a display\Ànodo comùn\anodosegments.vhd
+Compile Entity "decoder"
+Compile Architecture "segments" of Entity "decoder"
+Top-Level unit detected
+Entity  =>   decoder
+Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.3 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+15:24, lunes, 08 de junio de 2020
+Simulation has been initialized
+Selected Top-Level: decoder (segments)
+Cannot force signal A with formula 0 0, 1 50000 -r 100000.
+KERNEL: stopped at time: 2 ms
+Warning: Active-HDL(tm) Sim has reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Warning: Active-HDL(tm) Sim has reached  the maximum simulation time (2ms) allowed in any single simulation run.  The effective length of the simulation may be extended by running multiple simulations in increments of 2ms.  To upgrade your software to handle simulations greater than this time as well as VHDL source level simulation contact Aldec - sales@aldec.com
+Simulation has been stopped

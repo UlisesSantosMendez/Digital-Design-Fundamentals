@@ -1,0 +1,2 @@
+resetcargapar.vhd #Entity contpar 4
+resetcargapar.vhd #Architecture contador contpar 10

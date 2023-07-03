@@ -1,0 +1,6 @@
+MESSAGE "File: E:\Programas de VHDL\Decodificador a display\Ànodo comùn\anodosegments.vhd" 
+MESSAGE "Compile Entity "decoder"" 
+MESSAGE "Compile Architecture "segments" of Entity "decoder"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   decoder" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]" 

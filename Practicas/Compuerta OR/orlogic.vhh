@@ -1,0 +1,7 @@
+ENTITY c_or IS
+    PORT (
+	a : in std_logic  ; 
+	d : in std_logic  ; 
+	c : inout std_logic 
+    ) ;
+END c_or ;
